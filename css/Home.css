@@ -69,7 +69,7 @@
 }
 
 #studios-section{
-	background-color: #1919FF;
+	background-color: white;
 }
 
 #adiatglance-section{
@@ -82,4 +82,55 @@
 
 #resources-section{
 	background-color: #9966FF;
+}
+
+#studios-section h1{
+	text-align: center;
+}
+.adi-section-container{
+	width: 100%;
+
+}
+.col-xs-3{
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+}
+.col-xs-6 .col-sm-3 img{
+	width: 100%;
+	height: 100%;
+}
+
+#studio1, #studio4{
+	position:relative;
+	top:200px;
+	z-index: 0;
+}
+
+.circuloquegira{
+	
+	z-index: -1	;
+	width:500px;
+	height: 250px;
+	margin:0px auto;
+	border-radius: 500px 500px 0 0;
+     -moz-border-radius: 500px 500px 0 0;
+     -webkit-border-radius: 500px 500px 0 0;
+}
+.circuloquegira img{
+	width: 75%;
+}
+#studio2{
+	position: relative;
+	left: -20px;
+	top: 40px;
+}
+#studio3{
+	position: relative;
+	right: -120px;
+	top: 40px;
+}
+#studio4{
+	position: relative;;
+	right: -110px;
 }

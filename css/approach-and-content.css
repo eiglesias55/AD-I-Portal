@@ -15,6 +15,7 @@
 
 .adi-subsection{
 	width: 100%;
+	display: flex;	
 }
 
 /*-------------------------------------------- Titles & Subtitles ------------------------------------------------*/
@@ -48,6 +49,7 @@
 	border-radius: 100%;
 	text-align: center;
 	vertical-align: text-top;
+	cursor: pointer;
 }
 
 .adi-graphbox-box img{
@@ -116,13 +118,11 @@
 
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% GraphBoard %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
 
-/* -------------------------------------------- Graphboard Boxes Classes*/
+/* -------------------------------------------- Graphboard Boxes Classes ------------------------------------------*/
 
 .adi-graph-board{
-	text-align: center;
-	border: 2px solid #A39999;
-	border-radius: 10px;
-	margin:0px auto;
+	display: inline-block;
+	margin:auto auto;
 	
 }
 
@@ -133,6 +133,7 @@
 /* -------------------------------------------- Graphboard text Classes -------------------------------------------*/
 	
 .adi-graph-board h3{
+	text-align: center;
 	font-size: 26px;
 	color: black;
 }

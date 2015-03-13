@@ -25,52 +25,11 @@
 	width: 100%;
 }
 
-.adi-number-box{
-	margin-top: 10px;
-	margin-bottom: 10px;
-	display: inline-block;
-	height: 100%;
-	width:33%;	
-}
-
-.adi-number-number{
-	font-size: 72px;
-	color: white;
-	text-align: center;
-}
-
-.adi-number-text{
-	font-size: 200%;
-	color: white;
-	text-align: center;
-}
-
-#offices-number{
-
-
-}
-
-#contribuitors-number{
-
-
-}
-
-#adiinnumbers-subsection{
-	display: block;
-}
-
-#development-hours-number{
-
-
-}
 
 #footer-container{
 	margin: 10px;
 }
 
-#studios-section{
-	background-color: white;
-}
 
 #adiatglance-section{
 	background-color: #3366FF;

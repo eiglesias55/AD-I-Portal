@@ -1,0 +1,43 @@
+
+#section-title{
+	text-align: center;
+	margin:30px auto;
+}
+
+.adi-number-box{
+	margin: 0px auto 30px auto;
+	display: inline-block;
+	height: 100%;
+	width:33%;	
+}
+
+.adi-number-number{
+	margin:20px auto 0px auto;
+	font-size: 72px;
+	color: white;
+	text-align: center;
+}
+
+.adi-number-text{
+	font-size: 200%;
+	color: white;
+	text-align: center;
+}
+
+.adi-number-icon{
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	margin: 20px auto;
+}
+
+
+#adiinnumbers-subsection{
+	display: block;
+}
+
+.adi-number-icon > *{
+	width: 100%;
+	height: 100%;
+}
+

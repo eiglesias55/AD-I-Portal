@@ -7,11 +7,18 @@
     <title>Bootstrap 101 Template</title>
 
     <!-- Bootstrap -->
+  
+
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS-->
 
     <link type="text/css" rel="stylesheet" href="css/development-methodology.css">
+    <link type="text/css" rel="stylesheet" href="css/approach-and-content.css">
+
+    <!-- Custom JavaScript-->
+
+  
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -54,20 +61,21 @@
 
 
    <div class="adi-section" id="approach-context-section">
-  		<h3 style="text-align:center">Approach & Content</h3>
-  		<div class="adi-section">
+  		<h3 id="section-title">Approach & Content</h3>
+      <p id="section-subtitle">Aca va a ir el subtitulo</p>
+  		<div class="adi-subsection">
   		  <div class="adi-graphbox">
           <div class="adi-graphbox-top">
-            <div class="adi-graphbox-box" id="graph-services">
-              Services
+            <div class="adi-graphbox-box" id="graph-services" data-trigger="services-content">
+              <img src="Img/servicesIcon.png"/>
             </div>
           </div>
           <div class="adi-graphbox-middle">
             <div class="pull-left" id="graphbox-middle-left">
-              <div class="adi-graphbox-box" id="graph-technologies">
+              <div class="adi-graphbox-box" id="graph-technologies" data-trigger="techologies-content">
                 Technologies
               </div>
-              <div class="adi-graphbox-box" id="graph-certifications">
+              <div class="adi-graphbox-box" id="graph-certifications" data-trigger="certifications-content">
                 Certifications
               </div>
             </div>
@@ -75,23 +83,48 @@
               AD&I
             </div>
             <div class="pull-right" id="graphbox-middle-right">
-              <div class="adi-graphbox-box" id="graph-deliverymodel">
-                Deliv Model
+              <div class="adi-graphbox-box" id="graph-deliverymodel" data-trigger="deliverymodel-content">
+                Delivery Model
               </div>
-              <div class="adi-graphbox-box" id="graph-qualitymodel">
+              <div class="adi-graphbox-box" id="graph-qualitymodel" data-trigger="qualitymodel-content">
                 Quality Model
               </div>
             </div>
           </div>
           <div class="adi-graphbox-bottom">
-            <div class="adi-graphbox-box" id="graph-tools">
+            <div class="adi-graphbox-box" id="graph-tools" data-trigger="tools-content">
               Tools
             </div>
           </div>
           <div id="graph-circle">
           </div>   
         </div>
-
+        <div class="adi-graph-board">
+          <div id="services-content">
+            <h3 id="title-services">Services</h3>
+            <p id="content-services">Aca va a ir contenido de Services</p>
+          </div> 
+          <div id="techologies-content">
+            <h3 id="title-techologies">Techonologies</h3>
+            <p id="content-techologies">Aca va a ir contenido de Techonologies</p>
+          </div> 
+          <div id="deliverymodel-content">
+            <h3 id="title-deliverymodel">Delivery Model</h3>
+            <p id="content-deliverymodel">Aca va a ir contenido de Delivery Model</p>
+          </div> 
+          <div id="certifications-content">
+            <h3 id="title-certifications">Certifications</h3>
+            <p id="content-certifications">Aca va a ir contenido de Certifications</p>
+          </div> 
+          <div id="qualitymodel-content">
+            <h3 id="title-qualitymodel">Quality Model</h3>
+            <p id="content-qualitymodel">Aca va a ir contenido de Muality Model</p>
+          </div> 
+          <div id="tools-content">
+            <h3 id="title-tools">Tools</h3>
+            <p id="content-tools">Aca va a ir contenido de Tools</p>
+          </div> 
+        </div> 
   		</div>
 
    </div>
@@ -129,5 +162,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/approach-and-content.js"></script>
   </body>
 </html>

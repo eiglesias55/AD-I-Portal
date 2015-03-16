@@ -3,13 +3,13 @@ $(document).ready(function(){
   $(".adi-scroll-button img").click(function(){
     $(this).hide(0);
     if($("p#paragraph2").is(":hidden")){
-      $("#paragraph2,p#paragraph3").show(500);
+      $("#paragraph2,p#paragraph3").show(1000);
       $(".adi-scroll-button img").attr("src","Img/upButton.png");
-      $(this).show(500);
+      $(this).show(1000);
     }else{
-      $("#paragraph2,p#paragraph3").hide(500);
+      $("#paragraph2,p#paragraph3").hide(1000);
       $(".adi-scroll-button img").attr("src","Img/downButton.png");
-      $(this).show(500); 
+      $(this).show(1000); 
     }
   });
 });

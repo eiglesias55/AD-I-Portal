@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
-	var studiosIds = ["studio1","studio2","studio3","studio4"];
-	var contentsIds = ["spin-content1","spin-content2","spin-content3","spin-content4"];
+	var studiosIds = ["studio1","studio2","studio3","studio4","studio5"];
+	var contentsIds = ["spin-content1","spin-content2","spin-content3","spin-content4","spin-content5"];
 
 	for(i = 0 ; i < studiosIds.length ; i++){
 		$("#"+studiosIds[i]).hover(function(){

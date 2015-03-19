@@ -4,7 +4,7 @@
 
 .adi-achievement{
 	position: relative;
-	border: 1px solid black;
+	border: 1px solid #4C4C4C;
 	border-radius: 10px;	
 	margin: 10px auto;
 	display: block;
@@ -15,22 +15,23 @@
 .adi-achievement-text{
 	position: absolute;
 	padding: 10px;
-	display: inline-block;
-	height: 150px;
+	display: ;
+	height: 100%;
 	z-index: 1;
+	
 }
 
 .adi-achievement-img{
 	position: absolute;
 	border-radius: 10px;
-	display: inline-block;
+	display: block;
 	height: 100%;	
 	z-index: 2;
 }
 
 .adi-achievement-title{
-	margin-left: 100px;
-	position: absolute;
+	line-height: 100%;
+	margin:0 auto;
 	display: inline-block;
 	z-index: 1;
 }
@@ -39,7 +40,7 @@
 	display: inline-block;
 	text-align: center;
 	width: 700px;
-	margin: 0;
+	margin: auto 10%;
 }
 
 .adi-achievement-img img{
@@ -52,5 +53,6 @@
 	display: inline-block;
 	text-align: center;
 	width: 700px;
+	line-height: 100%;
 }
 

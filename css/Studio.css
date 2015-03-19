@@ -1,5 +1,5 @@
 #studios-section{
-	background-color: white;
+	background-color: #A8A8A8;
 }
 
 #studios-section h1{
@@ -54,9 +54,13 @@
      -webkit-border-radius: 500px 500px 0 0;
 }
 
+
 #spin-content1,#spin-content2,#spin-content3,#spin-content4{
 	text-align: center;
 	line-height: 260px;
+}
+
+#spin-content1{
 	display: block;
 }
 

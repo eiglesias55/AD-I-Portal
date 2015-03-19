@@ -1,0 +1,56 @@
+#achievements-subsection{
+	display:block;
+}
+
+.adi-achievement{
+	position: relative;
+	border: 1px solid black;
+	border-radius: 10px;	
+	margin: 10px auto;
+	display: block;
+	height: 150px;
+	width: 1000px;
+}
+
+.adi-achievement-text{
+	position: absolute;
+	padding: 10px;
+	display: inline-block;
+	height: 150px;
+	z-index: 1;
+}
+
+.adi-achievement-img{
+	position: absolute;
+	border-radius: 10px;
+	display: inline-block;
+	height: 100%;	
+	z-index: 2;
+}
+
+.adi-achievement-title{
+	margin-left: 100px;
+	position: absolute;
+	display: inline-block;
+	z-index: 1;
+}
+
+.adi-achievement-text p{	
+	display: inline-block;
+	text-align: center;
+	width: 700px;
+	margin: 0;
+}
+
+.adi-achievement-img img{
+	border-radius: 10px;
+	display: inline-block;
+	height: 100%;
+}
+
+.adi-achievement-title h1{	
+	display: inline-block;
+	text-align: center;
+	width: 700px;
+}
+

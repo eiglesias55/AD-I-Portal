@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
+    <title>Home</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -14,6 +14,8 @@
     <link type="text/css" rel="stylesheet" href="css/Home.css">
     <link type="text/css" rel="stylesheet" href="css/Studio.css">
     <link type="text/css" rel="stylesheet" href="css/adi-in-numbers.css">
+    <link type="text/css" rel="stylesheet" href="css/stack-of-applications.css">
+    <link type="text/css" rel="stylesheet" href="css/achievements.css">
    
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -45,7 +47,7 @@
 	      <ul class="nav navbar-nav">
 	        <li class="active"><a href="#">Home(We're hiring)<span class="sr-only">(current)</span></a></li>
 	        <li><a href="company.html">Company</a></li>
-	        <li><a href="#">Knowledge Managment</a></li>
+	        <li><a href="knowledge-management.html">Knowledge Managment</a></li>
 	        <li><a href="development-methodology.html">Development Methodology</a></li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
@@ -59,7 +61,7 @@
    <div class="adi-section" id="studios-section">
   		<h3 style="text-align:center">Grupo Assa Areas of Studio</h3>
   		<div >
-  			<h1>Your succes story begins here</h1>
+  			<h1>Your success story begins here</h1>
   		</div>
   		<div class="adi-section-container">
         <div class="adi-studiosbox">
@@ -94,7 +96,7 @@
                       <div id="spin-content4">
                         <p>eCommerce - Omnichannel</p>
                       </div>
-                    <div>
+                  </div>
             </div> 
           </div>
         </div>  
@@ -108,7 +110,15 @@
 
     <div class="adi-section" id="adiatglance-section">
   		<h1 id="section-title" >AD&I at Glance</h1>
-  		<div class="adi-subsection" id="achievements-subsection"></div>
+  		<div class="adi-subsection" id="achievements-subsection">
+        <div class="adi-achievement" id="achievement1">
+          <div class="adi-achievement-text pull-left"><p>Este es el texto..</p></div>
+          <div class="adi-achievement-img"><img src="Img/great-place-to-work-logo.png"></div>
+          <div class="adi-achievement-title pull-right"><h1>Great Place to Work</h1></div>
+        </div>
+        <div class="adi-achievement" id="achievement2"></div>
+        <div class="adi-achievement" id="achievement3"></div>
+      </div>
   		<div class="adi-subsection" id="adiinnumbers-subsection">
   			<div class="adi-number-box" id="offices-number">
   				<div class="adi-number-number">10</div>
@@ -126,22 +136,24 @@
           <div class="adi-number-icon"><img src="Img/clockIcon.png"></div>
   			</div>
   		</div>
-  		<div class="adi-subsection" id="customers-subsection"></div>
+      <div class="adi-subsection" id="customers-subsection"></div>
    </div>
 
 <!--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Comienzo de Seccion %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
 
     <div class="adi-section" id="stackofapplications-section">
-  		<h1 style="text-align:center">Seccion "Stack of Applications"</h1>
-  		
+  		<h1>Seccion "Stack of Applications"</h1>
+      <div class="adi-stack-of-applications-apps">
+  		  <img src="Img/stack-of-applications.jpg">
+      </div>
+      <div class="adi-stack-of-applications-tools">
+        <img src="Img/applications-development-tools.jpg">
+      </div>
+      <div class="adi-stack-of-applications-services">
+        <img src="Img/platform-services.jpg">
+      </div>
    </div>
 
-<!--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Comienzo de Seccion %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
-    
-    <div class="adi-section" id="resources-section">
-  		<h1 style="text-align:center">Seccion "Resources"</h1>
-   </div>
-    
 <!--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Footer %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
 
     <div class="footer">
@@ -156,5 +168,6 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/studio.js"></script>
     <script src="js/adi-in-numbers.js"></script>
+    <script src="js/achievements.js"></script>
   </body>
 </html>

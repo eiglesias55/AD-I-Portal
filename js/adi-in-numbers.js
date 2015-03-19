@@ -1,8 +1,23 @@
 $(document).ready(function(){
 	$(".adi-number-box").stop().hover(function(){
-		$(this).animate({
-    			marginLeft:"20",
-    			marginRight:"-20"
-  				}, 200)
+		$(".adi-number-number").animate({
+    			marginLeft:"10",
+    			marginRight:"-10"
+  				}, 100,function(){
+  					$(".adi-number-number").animate({
+    					marginLeft:"-10",
+    					marginRight:"10"
+  				}, 100);
+  				});
+  		$(".adi-number-text").animate({
+				marginLeft:"-10",
+				marginRight:"10"
+				}, 100,function(){
+					$(".adi-number-text").animate({
+						marginLeft:"10",
+						marginRight:"-10"
+						}, 100);
+				});
+		
 	});
 });

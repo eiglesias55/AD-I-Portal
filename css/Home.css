@@ -6,7 +6,7 @@
 .footer{
 	width: 100%;
 	height: 60px;
-	background: #f5f5f5;
+	background: #0D0000;
 	border-top: 1px solid #c9c9c9;
 }
 
@@ -26,12 +26,51 @@
 }
 
 
+.adi-footer-content{
+	margin:50px;
+	background-color: #0D0000;
+}
+
 #footer-container{
-	margin: 10px;
+	width: 100%;
+	border-top: 2px solid #564D4D;
+	background-color: #0D0000;
 }
 
-
-#resources-section{
-	background-color: #9966FF;
+.adi-footer-sections{
+	display: inline-block;
 }
 
+.adi-footer-foot{
+	margin: 50px auto;
+	display: block;
+}
+
+.adi-footer-section{
+	display: inline-table;
+	height: 100%;
+	margin-right: 30px;
+}
+
+.adi-footer-section-title{
+	color:#564D4D;
+}
+
+.adi-footer-section-link{
+	margin-top:20px;
+}
+
+.adi-footer-section-link a{
+	color:white;
+}
+
+.adi-footer-where-to-find-us-map{
+	margin-top: 30px;
+	height: 80px;
+	width: 250px;
+}
+
+.adi-footer-where-to-find-us-map img{
+	height: 100%;
+	width: 100%;
+}

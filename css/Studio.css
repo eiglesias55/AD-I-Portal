@@ -1,86 +1,107 @@
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Section %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
 #studios-section{
-	background-color: #A8A8A8;
+	background-color: #C6E3FF;
 }
 
-#studios-section h1{
-	text-align: center;
+#content{
+	background-color: #3083FF;
 }
+
 .adi-section-container{
 	width: 100%;
 }
 
-.adi-studiosbox{
-	width: 80%;
-	height: 500px;
-	margin: 60px auto 0px auto;
+/* ---------------------------------------------------- Title ------------------------------------------------------------------*/
+
+.adi-section-title{
 	display: block;
+	margin: 20px auto;
 }
+
+.adi-section-title h1{
+	text-align: center
+}
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Icons %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
 
 .adi-studiosbox-icons{
 	height: 120px;
-	margin: 0 auto;
-}
-
-.adi-studiosbox-middle{
-	width: 100%;
-	height: 120px;
-}
-
-.adi-studiosbox-bottom{
-	width: 100%;
-	height: 260px;	
+	width: 80%;
+	margin: 60px auto;
 }
 
 .adi-studiosbox-box{
 	width: 120px;
-	height: 120px;
+	height: 100%;
 	display: inline-block;
-	margin: 0 35px;
+	margin: 0 38px;
 }
 
 .adi-studiosbox-box a img{
 	width: 100%;
 	height: 100%;
-
 }
-.adi-studiosbox-separator{
-	display: block;
-	height: 80px;
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Content %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+.adi-studiosbox-content{
 	width: 100%;
-}
-
-.adi-spin{
-	z-index: -1	;
-	width:500px;
 	height: 100%;
-	background-color: red;
-	margin:0px auto;
-	border-radius: 500px 500px 0 0;
-     -moz-border-radius: 500px 500px 0 0;
-     -webkit-border-radius: 500px 500px 0 0;
+}
+
+.adi-studio-text{
+	margin: 30px;
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+}
+
+.adi-studio-text p{
+	margin: 30px 30px;
 }
 
 
-#spin-content1,#spin-content2,#spin-content3,#spin-content4,#spin-content5{
+.adi-studio-text h1{
 	text-align: center;
-	line-height: 260px;
+	margin: 30px auto;
 }
 
-#spin-content1{
+.adi-studio-image{
+	display: inline-block;
+	margin: 30px auto;
+	width: 400px;
+	height: 400px; 
+}
+
+.adi-studio-image img{
+	height:100%;
+	width: 100%; 
+}
+
+#studio-content1,#studio-content2,#studio-content3,#studio-content4,#studio-content5{
+	margin: 30px 0; 
+	text-align: center;
 	display: block;
 }
 
-#spin-content2{
+#studio-content1{
+	display: block;
+}
+
+#studio-content2{
 	display: none;
 }
 
-#spin-content3{
+#studio-content3{
 	display: none;	
 }
 
-#spin-content4{
+#studio-content4{
 	display: none;
 }
-#spin-content5{
+#studio-content5{
 	display: none;
 }
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% End %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/

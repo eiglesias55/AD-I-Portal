@@ -1,13 +1,23 @@
 #achievements-subsection{
 	display:block;
-	margin: 50px auto;
+	margin: 0px auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.adi-subsection-title h1{
+	text-align: center;
+	font-family: "arial black";
+	font-size: 45px;
+	color:black;
+	margin-bottom: 50px; 
 }
 
 .adi-achievement{
 	position: relative;
 	border: 1px solid #4C4C4C;
 	border-radius: 10px;	
-	margin: 10px auto;
+	margin: 30px auto;
 	display: block;
 	height: 150px;
 	width: 1000px;

@@ -35,7 +35,8 @@
 #adiinnumbers-subsection{
 	display: block;
 	background-color: #3366FF;
-	
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .adi-number-icon > *{

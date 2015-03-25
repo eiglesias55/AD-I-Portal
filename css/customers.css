@@ -1,0 +1,16 @@
+#customers-subsection{
+	background-color:yellow;
+	padding: 50px;
+}
+
+.adi-customer-img{
+	display: inline-block;
+	width: 200px;
+	height: 50px;
+	margin-left: 50px;
+}
+
+.adi-customer-img img{
+	width: 100%;
+	height: 100%;
+}

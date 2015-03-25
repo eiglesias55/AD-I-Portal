@@ -17,6 +17,8 @@
     <link type="text/css" rel="stylesheet" href="css/adi-in-numbers.css">
     <link type="text/css" rel="stylesheet" href="css/stack-of-applications.css">
     <link type="text/css" rel="stylesheet" href="css/achievements.css">
+        <link type="text/css" rel="stylesheet" href="css/customers.css">
+
    
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -66,7 +68,7 @@
   		</div>
   		<div class="adi-section-container" id="icons">
         <div class="adi-studiosbox-icons">
-            <div class="adi-studiosbox-box" id="studio1" data-trigger="studio-content1">
+            <div class="adi-studiosbox-box-active" id="studio1" data-trigger="studio-content1">
               <a href="#"><img src="img/ux.png"></a>
             </div>
             <div class="adi-studiosbox-box" id="studio2" data-trigger="studio-content2">
@@ -91,16 +93,19 @@
               </div>
               <div class="adi-studio-content" id="studio-content2">
                 <div class="adi-studio-image"><img src="Img/mobile-content.png"></div>
-                <div class="adi-studio-text"><h1>Mobile</h1><p>Esto va a ser el párrafo..asdasdasdasdasdasdasd.Esto va a ser el párrafo..asdasdasdasdasdasdasdEsto va a ser el párrafo..asdasdasdasdasdasdasdEsto va a ser el párrafo..asdasdasdasdasdasdasdEsto va a ser el párrafo..asdasdasdasdasdasdasdEsto va a ser el párrafo..asdasdasdasdasdasdasdEsto va a ser el párrafo..asdasdasdasdasdasdasdEsto va a ser el párrafo..asdasdasdasdasdasdasd</p></div>
+                <div class="adi-studio-text"><h1>Mobile</h1><p>Esto va a ser el párrafo..</p></div>
               </div>
               <div class="adi-studio-content" id="studio-content3">
-                <p>Digital Content</p>
+                <div class="adi-studio-image"><img src="Img/mobile-content.png"></div>
+                <div class="adi-studio-text"><h1>Digital Content</h1><p>Esto va a ser el párrafo..</p></div>
               </div>
               <div class="adi-studio-content" id="studio-content4">
-                <p>eCommerce - Omnichannel</p>
+                <div class="adi-studio-image"><img src="Img/mobile-content.png"></div>
+                <div class="adi-studio-text"><h1>e-Commerce - Omnichannel</h1><p>Esto va a ser el párrafo..</p></div>
               </div>
               <div class="adi-studio-content" id="studio-content5">
-                <p>ERP</p>
+                <div class="adi-studio-image"><img src="Img/mobile-content.png"></div>
+                <div class="adi-studio-text"><h1>ERP</h1><p>Esto va a ser el párrafo..</p></div>
               </div>
         </div>
       </div>  
@@ -108,9 +113,13 @@
 
 <!--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Comienzo de Seccion %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
 
+
+<!-- ................................................  AD&I at a Glance subsection ............................................ -->
+
     <div class="adi-section" id="adiatglance-section">
   		<!--<h1 id="section-title" >AD&I at Glance</h1>-->
   		<div class="adi-subsection" id="achievements-subsection">
+        <div class="adi-subsection-title"><h1>ACHIEVEMENTS</h1></div>
         <div class="adi-achievement" id="achievement1">
           <div class="adi-achievement-text">
             <p>Grupo ASSA empresa de Consultoría y Outsourcing que ayuda a sus clientes en la Transformación de sus Procesos de Negocios a través de la Tecnología Informática, fue identificada por Great Place to Work Institute® entre las 50 mejores empresas para trabajar en Argentina.
@@ -141,6 +150,9 @@
           </div>
         </div>
       </div>
+
+<!-- ................................................  AD&I in Numbers subsection .............................................  -->
+
   		<div class="adi-subsection" id="adiinnumbers-subsection">
   			<div class="adi-number-box" id="offices-number">
   				<div class="adi-number-number">10</div>
@@ -158,7 +170,20 @@
           <div class="adi-number-icon"><img src="Img/clockIcon.png"></div>
   			</div>
   		</div>
-      <div class="adi-subsection" id="customers-subsection"></div>
+
+<!-- ................................................ Customers subsection -.................................................. -->
+
+      <div class="adi-subsection" id="customers-subsection">
+
+        <div>
+            <div class="adi-customer-img"><img src="Img/customer-walmart.png"></div>
+            <div class="adi-customer-img"><img src="Img/customer-amcor.png"></div>
+            <div class="adi-customer-img"><img src="Img/customer-weatherford.png"></div>
+            <div class="adi-customer-img"><img src="Img/customer-astrazeneca.png"></div>
+            <div class="adi-customer-img"><img src="Img/customer-galicia.png"></div>
+        </div>
+
+      </div>
    </div>
 
 <!--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Comienzo de Seccion %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
@@ -178,53 +203,77 @@
 
 <!--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Footer %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
 
-    	<div class="container" id="footer-container">
-      		<div class="adi-footer-content">
-            <div class="adi-footer-sections">
-                <div class="adi-footer-section" id="footer-adi-section">
-                    <div class="adi-footer-section-title"><h4>AD&I</h4></div>
-                    <div class="adi-footer-section-link"><a>Studios</a></div>
-                    <div class="adi-footer-section-link"><a>AD&I at a Glance</a></div>
-                    <div class="adi-footer-section-link"><a>Stack of applications</a></div>
+  <footer>
+    <div class="footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> AD&I </h3>
+                    <ul>
+                        <li> <a href="#"> Studios </a> </li>
+                        <li> <a href="#"> Ad&I at a Glance </a> </li>
+                        <li> <a href="#"> Stack of applications </a> </li>
+                    </ul>
                 </div>
-                <div class="adi-footer-section" id="footer-company-section">
-                    <div class="adi-footer-section-title"><h4>Company</h4></div>
-                    <div class="adi-footer-section-link"><a>Our team</a></div>
-                    <div class="adi-footer-section-link"><a>Our history</a></div>
-                    <div class="adi-footer-section-link"><a>AD&I in Numbers</a></div>
-                    <div class="adi-footer-section-link"><a>Customers Testimonials</a></div>
-                    <div class="adi-footer-section-link"><a>Press Releases</a></div>
-                    <div class="adi-footer-section-link"><a>AD&I from inside</a></div>
-                    <div class="adi-footer-section-link"><a>Contact us</a></div>
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> Company </h3>
+                    <ul>
+                        <li> <a href="#"> Our Team </a> </li>
+                        <li> <a href="#"> Our History </a> </li>
+                        <li> <a href="#"> AD&I in numbers </a> </li>
+                        <li> <a href="#"> Customers Testimonials </a> </li>
+                        <li> <a href="#"> Press Releases </a> </li>
+                        <li> <a href="#"> AD&I from inside </a> </li>
+                        <li> <a href="#"> Contact us </a> </li>
+                    </ul>
                 </div>
-                <div class="adi-footer-section" id="footer-knowledge-management-section">
-                    <div class="adi-footer-section-title"><h4>Knowledge Management</h4></div>
-                     <div class="adi-footer-section-link"><a>link</a></div>
-                    <div class="adi-footer-section-link"><a>link</a></div>
-                    <div class="adi-footer-section-link"><a>link</a></div>
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> Knowledge Management </h3>
+                    
                 </div>
-                <div class="adi-footer-section" id="footer-development-methodology-section">
-                    <div class="adi-footer-section-title"><h4>Development Methodology</h4></div>
-                    <div class="adi-footer-section-link"><a>link</a></div>
-                    <div class="adi-footer-section-link"><a>link</a></div>
-                    <div class="adi-footer-section-link"><a>link</a></div>
+                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
+                    <h3> Development Methodology </h3>
+                    
                 </div>
-
-                <div class="adi-footer-section" id="footer-where-to-find-us">
-                  <div class="adi-footer-section-title"><h4>Our headquarters</h4></div>
-                  <div class="adi-footer-where-to-find-us-map"><img src="Img/where-to-find-us.png"></div>
-                  <div class="adi-footer-where-to-find-us-location">
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                  </div>
+                <div class="col-lg-3  col-md-3 col-sm-6 col-xs-12 ">
+                    <h3> Our headquarters </h3>
+                    <ul>
+                        <li>
+                            <div class="adi-our-headquarters-img">
+                              <img src="Img/where-to-find-us.png">
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="social">
+                        <li> <a href="#"> <i class=" fa fa-facebook"> </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-twitter">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-google-plus">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-pinterest">   </i> </a> </li>
+                        <li> <a href="#"> <i class="fa fa-youtube">   </i> </a> </li>
+                    </ul>
                 </div>
             </div>
-            
-            <div class="adi-footer-foot">
-                
+            <!--/.row--> 
+        </div>
+        <!--/.container--> 
+    </div>
+    <!--/.footer-->
+    
+    <div class="footer-bottom">
+        <div class="container">
+            <p class="pull-left"> Copyright © Grupo Assa. All right reserved. </p>
+            <div class="pull-right">
+                <ul class="nav nav-pills payments">
+                  <li><i class="fa fa-cc-visa"></i></li>
+                    <li><i class="fa fa-cc-mastercard"></i></li>
+                    <li><i class="fa fa-cc-amex"></i></li>
+                    <li><i class="fa fa-cc-paypal"></i></li>
+                </ul> 
             </div>
-          </div>
+        </div>
+    </div>
+    <!--/.footer-bottom--> 
+</footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

@@ -1,7 +1,9 @@
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Section %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
 
 #studios-section{
-	background-color: #C6E3FF;
+	/*background-color: #C6E3FF;*/
+	background-color: #001452;
+	padding-top: 100px;
 }
 
 #content{
@@ -17,10 +19,16 @@
 .adi-section-title{
 	display: block;
 	margin: 20px auto;
+	color: white;
 }
 
 .adi-section-title h1{
 	text-align: center
+}
+
+#studios-section h3{
+		color: white;
+
 }
 
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Icons %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
@@ -38,9 +46,23 @@
 	margin: 0 38px;
 }
 
+.adi-studiosbox-box-active{
+	width: 120px;
+	height: 100%;
+	display: inline-block;
+	margin: 0 38px;
+	border-radius: 100%; 	
+	border: 5px solid black;
+}
+
 .adi-studiosbox-box a img{
 	width: 100%;
-	height: 100%;
+	height: 100%;	
+}
+
+.adi-studiosbox-box-active a img{
+	width: 100%;
+	height: 100%;	
 }
 
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Content %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
@@ -80,7 +102,7 @@
 }
 
 #studio-content1,#studio-content2,#studio-content3,#studio-content4,#studio-content5{
-	margin: 30px 0; 
+	margin: 0px 0; 
 	text-align: center;
 	display: block;
 }

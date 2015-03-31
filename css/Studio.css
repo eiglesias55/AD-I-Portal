@@ -2,16 +2,19 @@
 
 #studios-section{
 	background-color: #001452;
-	padding-top: 50px;
-	margin-top: -50px;
+	height: 93vh;
 }
 
 #studios{
-	height: 40vh;
+	height: 45%;
+	min-height: 200px;
+	min-width: 250px;
 	}
 
 #content{
-	height: 52vh; 
+	height: 57%; 
+	min-height: 200px;
+	min-width: 250px;
 }
 
 #content{
@@ -22,50 +25,67 @@
 
 .adi-section-title{
 	display: block;
-	margin: 20px auto;
+	color: white;
+	text-align: center;
 	color: white;
 }
 
 .adi-section-title h1{
-	text-align: center
+	text-align: center;
+	margin:0;
+
+	font-size: 6vh;
 }
 
 #studios-section h3{
-		color: white;
+	padding-top: 3vh;
+	font-size: 4vh;
+	margin: 0;
+}
 
+@media (max-width: 300px){
+	h1{
+		font-size:28px !important; 
+	}
+
+	h3{
+		font-size:22px !important;
+	}
 }
 
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Icons %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
 
 #icons{
-	margin:100px 0;
+	margin-top:4vh;
 }
 
 .adi-studiosbox-icons{
-	height: 120px;
+	position: relative;
+	height: 15vh;
 	width: 80%;
-	margin: 60px auto;
+	margin: 0 auto;
 }
 
 .adi-studiosbox-box{
-	width: 120px;
 	height: 100%;
+	min-height: 40px;
+	min-width: 40px;
 	display: inline-block;
-	margin: 0 38px;
 }
 
 .adi-studiosbox-box-active{
-	width: 120px;
+	width: 20%;
 	height: 100%;
+	min-height: 40px;
+	min-width: 40px;
 	display: inline-block;
-	margin: 0 38px;
 	border-radius: 100%; 	
 	border: 5px solid black;
 }
 
 .adi-studiosbox-box a img{
 	width: 100%;
-	height: 100%;	
+	height: 100%;
 }
 
 .adi-studiosbox-box-active a img{
@@ -78,30 +98,36 @@
 .adi-studiosbox-content{
 	width: 100%;
 	height: 100%;
+	margin:0;
+}
+
+.adi-studio-content{
+	height: 50vh;
 }
 
 .adi-studio-text{
-	margin: 30px;
 	display: inline-block;
-	width: 50%;
-	height: 100%;
+	margin-left: 10px;
 }
 
 .adi-studio-text p{
-	margin: 30px 30px;
+	font-size: 
 }
 
+@media (max-width: 300px){
+	.adi-studio-text p{
+		font-size:28px !important; 
+	}
+}
 
 .adi-studio-text h1{
 	text-align: center;
-	margin: 30px auto;
 }
 
 .adi-studio-image{
 	display: inline-block;
-	margin: 30px auto;
-	width: 400px;
-	height: 400px; 
+	min-height: 100px;
+	min-width: 100px;
 }
 
 .adi-studio-image img{

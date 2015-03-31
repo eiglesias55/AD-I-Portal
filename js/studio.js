@@ -58,8 +58,40 @@
 			}
 		},4000);
 
-	/* ------------------------------------------------------------------------------------------------------------- */
+	/* ------------------------------------------------ Responsive ------------------------------------------ */
+	
 });
+
+window.setInterval(function(){
+
+	/*;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Studios Icons Responsive ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;, */
+
+	$(".adi-studiosbox-box,.adi-studiosbox-box-active").css("width",$(".adi-studiosbox-box").css("height"));
+	var studiosQuantity = 5;
+	var marginQuantity = studiosQuantity * 2;
+	var marginWidth = ((parseInt($(".adi-studiosbox-icons").css("width"),10) - studiosQuantity * parseInt($(".adi-studiosbox-box").css("width"), 10)) / marginQuantity) - 2;//PX 
+	$(".adi-studiosbox-box,.adi-studiosbox-box-active").css("margin-left",marginWidth);
+	$(".adi-studiosbox-box,.adi-studiosbox-box-active").css("margin-right",marginWidth);
+	$(".adi-studiosbox-icons").css("height",parseInt($(".adi-studiosbox-icons").css("width"),10)/10); //Proporcion, alto es 1/10 del ancho
+	var marginIcons = (parseInt($("#studios").css("height"),10) - parseInt($(".adi-section-title").css("height"),10) - parseInt($("#icons").css("height"),10))/2;
+	$(".adi-studiosbox-icons").css("margin-top",marginIcons);
+	$(".adi-studiosbox-icons").css("margin-bottom",marginIcons);
+
+	/*;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Studios Image Responsive ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;, */
+
+	$(".adi-studio-image").css("width",parseInt($("#content").css("width"),10)/5); 
+	$(".adi-studio-image").css("height",$(".adi-studio-image").css("width"));
+	var marginImg = (parseInt($("#content").css("height"),10) - parseInt($(".adi-studio-image").css("height"),10))/2;
+	$(".adi-studio-image").css("margin-top",marginImg);
+	$(".adi-studio-image").css("margin-bottom",marginImg);
+	$(".adi-studio-image").css("height",$(".adi-studio-image").css("width"));
+	$(".adi-studio-image").css("margin-left",parseInt($(".adi-studiosbox-content").css("width"),10)/8);
+
+	/*;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Studios Text Responsive ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;, */
+
+	$(".adi-studio-text").css("margin-right",parseInt($(".adi-studiosbox-content").css("width"),10)/5);
+
+},50);
 
 
 

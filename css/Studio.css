@@ -1,73 +1,122 @@
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Section %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
 
 #studios-section{
-	background-color: #001452;
-	padding-top: 50px;
-	margin-top: -50px;
+	display: block;
 }
 
 #studios{
-	height: 40vh;
+	background-color: #001452;
+	height: 45%;
 	}
 
 #content{
-	height: 52vh; 
+	height: 57%;
+	background-color: #3083FF; 
 }
 
-#content{
-	background-color: #3083FF;
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Responsive %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+@media (max-width: 767px){ 
+	#studios{
+		min-height: 200px;
+	}
+
+	#content{
+	 	min-height: 120px;
+	}
+}	
+
+/* -----------------------------------------  Tablets en horizonal y escritorios normales ------------------------------------- */
+@media (min-width: 768px) and (max-width: 992px) { 
+	#studios{
+		min-height: 385px;
+	}
+
+	#content{
+	 	min-height: 459px;
+	}
+	
 }
+ 
+/* ----------------------------------------- Móviles en horizontal o tablets en vertical --------------------------------------- */
+@media (min-width: 991px) and (max-width: 1199px) { 
+	#studios{
+		min-height: 385px;
+	}
+
+	#content{
+	 	min-height: 459px;
+	}
+	
+}
+ 
+/* ----------------------------------------------------- Móviles en vertical --------------------------------------------------- */
+@media (min-width: 1200px ){ 
+	#studios{
+		min-height: 385px;
+	}
+
+	#content{
+	 	min-height: 459px;
+	}
+	
+ }
+
+
 
 /* ---------------------------------------------------- Title ------------------------------------------------------------------*/
 
 .adi-section-title{
 	display: block;
-	margin: 20px auto;
+	color: white;
+	text-align: center;
 	color: white;
 }
 
 .adi-section-title h1{
 	text-align: center;
-	font-size:4vh;
+	margin:0;
 }
 
 #studios-section h3{
-	color: white;
-	font-size: 3vh;
-
+	padding-top: 3vh;
+	margin: 0;
 }
 
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Icons %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
 
 #icons{
-	margin:100px 0;
+	margin-top:4vh;
 }
 
 .adi-studiosbox-icons{
-	height: 120px;
+	position: relative;
+	height: 15vh;
 	width: 80%;
-	margin: 60px auto;
+	margin: 0 auto;
 }
 
 .adi-studiosbox-box{
-	width: 120px;
 	height: 100%;
+	min-height: 40px;
+	min-width: 40px;
 	display: inline-block;
-	margin: 0 38px;
 }
 
 .adi-studiosbox-box-active{
-	width: 120px;
+	width: 20%;
 	height: 100%;
+	min-height: 40px;
+	min-width: 40px;
 	display: inline-block;
-	margin: 0 38px;
 	border-radius: 100%; 	
 	border: 5px solid black;
 }
 
 .adi-studiosbox-box a img{
 	width: 100%;
-	height: 100%;	
+	height: 100%;
+	max-height: 100%;
 }
 
 .adi-studiosbox-box-active a img{
@@ -80,30 +129,38 @@
 .adi-studiosbox-content{
 	width: 100%;
 	height: 100%;
+	margin:0;
+}
+
+.adi-studio-content{
+	height: 50vh;
 }
 
 .adi-studio-text{
-	margin: 30px;
 	display: inline-block;
-	width: 50%;
-	height: 100%;
+	margin-left: 10px;
 }
 
 .adi-studio-text p{
-	margin: 30px 30px;
+	font-size: 
 }
 
+@media (max-width: 300px){
+	.adi-studio-text p{
+		font-size:28px !important; 
+	}
 
-.adi-studio-text h1{
-	text-align: center;
-	margin: 30px auto;
+
+	.adi-studio-text h1{
+		text-align: center;
+	}
 }
+
 
 .adi-studio-image{
 	display: inline-block;
-	margin: 30px auto;
-	width: 400px;
-	height: 400px; 
+	min-height: 100px;
+	min-width: 100px;
 }
 
 .adi-studio-image img{

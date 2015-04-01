@@ -1,41 +1,36 @@
 #stackofapplications-section{
 	padding: 10px 0;
 	background-color: white;
-	padding-top: 100px;
-	padding-bottom: 100px;
 }
 
-.adi-stack-of-applications-apps{
+#stack-of-applications-apps{
 	width: 80%;
-	height: 200px;
 	margin: 10px auto;
 }
 
-.adi-stack-of-applications-tools{
+#stack-of-applications-tools{
 	width: 80%;
-	height: 250px;
 	margin: 10px auto;
 }
 
-.adi-stack-of-applications-services{
+#stack-of-applications-services{
 	width: 80%;
-	height: 250px;
 	margin: 10px auto;
 }
 
-.adi-stack-of-applications-apps img{
+#stack-of-applications-apps img{
 	width: 100%;
 	height: 100%;
 	border-radius: 10px;
 }
 
-.adi-stack-of-applications-tools img{
+#stack-of-applications-tools img{
 	width: 100%;
 	height: 100%;
 	border-radius: 10px;
 }
 
-.adi-stack-of-applications-services img{
+#stack-of-applications-services img{
 	width: 100%;
 	height: 100%;
 	border-radius: 10px;

@@ -1,13 +1,13 @@
 #customers-subsection{
 	background-color:yellow;
-	padding: 50px 30px;
+}
+
+.adi-customers-container{
+	display: inline-block;
 }
 
 .adi-customer-img{
 	display: inline-block;
-	width: 200px;
-	height: 50px;
-	margin-left: 30px;
 }
 
 .adi-customer-img img{

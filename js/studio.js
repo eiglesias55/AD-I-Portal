@@ -1,7 +1,66 @@
+var studiosIds = ["studio1","studio2","studio3","studio4","studio5"];
+var contentsIds = ["studio-content1","studio-content2","studio-content3","studio-content4","studio-content5"];
+
+/* ------------------------------------------------ Responsive ------------------------------------------ */	
+
+	function studioresponsive(){
+
+	/*;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Studios Icons Responsive ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;, */
+
+		var studiosQuantity = 5;
+		var marginIcons = (parseInt($("#studios").css("height"),10) - parseInt($(".adi-section-title").css("height"),10) - parseInt($("#icons").css("height"),10))/2;
+		$(".adi-studiosbox-icons").css("height",parseInt($(".adi-studiosbox-icons").css("width"),10)/10); //Proporcion, alto es 1/10 del ancho
+		$(".adi-studiosbox-icons").css("margin-top",marginIcons);
+		$(".adi-studiosbox-box,.adi-studiosbox-box-active").css("width",$(".adi-studiosbox-box").css("height"));
+		var marginWidth = Math.floor((parseInt($(".adi-studiosbox-icons").css("width"),10) - studiosQuantity * parseInt($(".adi-studiosbox-box").css("width"), 10)) / studiosQuantity) - 3; 
+		$("#studio1").css("margin-left",Math.floor(marginWidth/2));
+		$("#studio2,#studio3,#studio4,#studio5").css("margin-left",marginWidth);
+	
+	/*;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Studios Text Responsive ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;, */
+
+		var textMargin = Math.floor(parseInt($(".adi-studio-content").css("width"),10)*0.025);
+		$(".adi-studio-text").css("margin-right",textMargin);
+		$(".adi-studio-text").css("margin-left",textMargin);
+		var maxHeight = 0;
+		for(i = 1 ; i <= studiosIds.length ; i++){
+			var container = "#studio-content" + i + " > .adi-studio-text";
+			var currentHeight  = parseInt($(container).css("height"),10);
+			if(currentHeight > maxHeight){		
+				maxHeight = currentHeight;
+			}
+		}
+		if($(window).width() >= 767){
+			$("#content").css("height",maxHeight + maxHeight*0.1);
+		}else{
+			$("#content").css("height",maxHeight + maxHeight*0.1 + parseInt($(".adi-studio-image").css("height"),10));
+		}
+
+	/*;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Studios Image Responsive ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;, */
+
+		$(".adi-studio-image").css("width",parseInt($("#content").css("width"),10)/5); 
+		$(".adi-studio-image").css("height",$(".adi-studio-image").css("width"));
+		if($(window).width() >= 767){
+			var marginImg = Math.floor((parseInt($("#content").css("height"),10) - parseInt($(".adi-studio-image").css("height"),10))/2);
+			$(".adi-studio-image").css("margin-top",marginImg);
+			$(".adi-studio-image").css("margin-left",parseInt($(".adi-studiosbox-content").css("width"),10)/8);
+		}else{
+			var marginImg = Math.floor(parseInt($(".adi-studio-image").css("height"),10)/10);
+			$(".adi-studio-image").css("margin-top",marginImg);
+			$(".adi-studio-image").css("margin-bottom",marginImg);
+			var marginToCenter = Math.floor((parseInt($("#content").css("width"),10) - parseInt($(".adi-studio-image").css("width"),10))/2);
+			$(".adi-studio-image").css("margin-left",marginToCenter);	
+		}
+
+	}
+
+/*------------------------------------------------- End Responsive -------------------------------------------*/
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% When Document is Ready %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
 	$(document).ready(function(){
 
-	var studiosIds = ["studio1","studio2","studio3","studio4","studio5"];
-	var contentsIds = ["studio-content1","studio-content2","studio-content3","studio-content4","studio-content5"];
+	studioresponsive();
+
 	var studioClicked = false;
 	var studioHover = false;
 
@@ -58,40 +117,19 @@
 			}
 		},4000);
 
-	/* ------------------------------------------------ Responsive ------------------------------------------ */
+	
 	
 });
 
-window.setInterval(function(){
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% When window is resized %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
 
-	/*;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Studios Icons Responsive ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;, */
+$(window).resize(function(){
 
-	$(".adi-studiosbox-box,.adi-studiosbox-box-active").css("width",$(".adi-studiosbox-box").css("height"));
-	var studiosQuantity = 5;
-	var marginQuantity = studiosQuantity * 2;
-	var marginWidth = ((parseInt($(".adi-studiosbox-icons").css("width"),10) - studiosQuantity * parseInt($(".adi-studiosbox-box").css("width"), 10)) / marginQuantity) - 3;//PX 
-	$(".adi-studiosbox-box,.adi-studiosbox-box-active").css("margin-left",marginWidth);
-	$(".adi-studiosbox-box,.adi-studiosbox-box-active").css("margin-right",marginWidth);
-	$(".adi-studiosbox-icons").css("height",parseInt($(".adi-studiosbox-icons").css("width"),10)/10); //Proporcion, alto es 1/10 del ancho
-	var marginIcons = (parseInt($("#studios").css("height"),10) - parseInt($(".adi-section-title").css("height"),10) - parseInt($("#icons").css("height"),10))/2;
-	$(".adi-studiosbox-icons").css("margin-top",marginIcons);
-	$(".adi-studiosbox-icons").css("margin-bottom",marginIcons);
+	studioresponsive();
 
-	/*;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Studios Image Responsive ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;, */
+}); 
 
-	$(".adi-studio-image").css("width",parseInt($("#content").css("width"),10)/5); 
-	$(".adi-studio-image").css("height",$(".adi-studio-image").css("width"));
-	var marginImg = (parseInt($("#content").css("height"),10) - parseInt($(".adi-studio-image").css("height"),10))/2;
-	$(".adi-studio-image").css("margin-top",marginImg);
-	$(".adi-studio-image").css("margin-bottom",marginImg);
-	$(".adi-studio-image").css("height",$(".adi-studio-image").css("width"));
-	$(".adi-studio-image").css("margin-left",parseInt($(".adi-studiosbox-content").css("width"),10)/8);
 
-	/*;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Studios Text Responsive ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;, */
-
-	$(".adi-studio-text").css("margin-right",parseInt($(".adi-studiosbox-content").css("width"),10)/5);
-
-},50);
 
 
 

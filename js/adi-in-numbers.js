@@ -1,11 +1,4 @@
-$(document).ready(function(){
-	
-
-	window.setInterval(function(){
-
-/* ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Proporciona la sección ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; */
-
-		$("#adiinnumbers-subsection").css("height",parseInt($("#adiinnumbers-subsection").css("width"),10)*11/50);
+function adiinnumbersresponsive(){
 
 /* ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Proporciona las box ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; */
 
@@ -22,9 +15,15 @@ $(document).ready(function(){
 		$(".adi-number-icon").css("height",parseInt($("#adiinnumbers-subsection").css("height"),10)*1/6);
 		$(".adi-number-icon").css("width",$(".adi-number-icon").css("height"));
 		
-	});
+}
 
+$(document).ready(function(){
+
+	adiinnumbersresponsive();
 });
 
+$(window).resize(function(){
 
-1/6
+	adiinnumbersresponsive();
+
+});

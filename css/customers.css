@@ -14,3 +14,32 @@
 	width: 100%;
 	height: 100%;
 }
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Responsive %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+@media (max-width: 767px){ 
+	#customers-subsection{
+		height: px;
+	}
+}	
+
+/* -----------------------------------------  Tablets en horizonal y escritorios normales ------------------------------------- */
+@media (min-width: 768px) and (max-width: 992px) { 
+	#customers-subsection{
+		height: px;
+	}
+}
+ 
+/* ----------------------------------------- Móviles en horizontal o tablets en vertical --------------------------------------- */
+@media (min-width: 991px) and (max-width: 1199px) { 
+	#customers-subsection{
+		height: 200px;
+	}
+}
+ 
+/* ----------------------------------------------------- Móviles en vertical --------------------------------------------------- */
+@media (min-width: 1200px ){ 
+	#customers-subsection{
+		height: 300px;
+	}
+ }

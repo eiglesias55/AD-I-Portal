@@ -1,12 +1,13 @@
 #adiinnumbers-subsection{
 	display: block;
 	background-color: #3366FF;
-	min-height: 150px;
 }
 
 .adi-number-box{
 	display: inline-block;
+	margin: 0;
 	width:30%;	
+	white-space: nowrap;
 }
 
 .adi-number-number{
@@ -35,6 +36,10 @@
 
 @media (max-width: 767px){ 
 
+	#adiinnumbers-subsection{
+		height: 100px;
+	}
+
 	.adi-number-number{
 		font-size:24px;
 	}
@@ -45,7 +50,12 @@
 }	
 
 /* -----------------------------------------  Tablets en horizonal y escritorios normales ------------------------------------- */
+
 @media (min-width: 768px) and (max-width: 992px) { 
+
+	#adiinnumbers-subsection{
+		height: 200px;
+	}
 
 	.adi-number-number{
 		font-size:48px;
@@ -57,7 +67,12 @@
 }
  
 /* ----------------------------------------- Móviles en horizontal o tablets en vertical --------------------------------------- */
+
 @media (min-width: 991px) and (max-width: 1199px) { 
+
+	#adiinnumbers-subsection{
+		height: 250px;
+	}
 
 	.adi-number-number{
 		font-size:60px;
@@ -69,7 +84,12 @@
 }
  
 /* ----------------------------------------------------- Móviles en vertical --------------------------------------------------- */
+
 @media (min-width: 1200px ){ 
+
+	#adiinnumbers-subsection{
+		height: 300px;
+	}
 
 	.adi-number-number{
 		font-size:72px;

@@ -1,34 +1,36 @@
-#adiinnumbers-subsection{
+#adiinnumbers-company{
 	display: block;
-	background-color: #BF8330;
 }
 
 .adi-number-box{
 	display: inline-block;
 	margin: 0;
-	width:30%;	
+	width:33%;	
 	white-space: nowrap;
+	
 }
 
-.adi-number-number {
+.adi-number-number{
+	letter-spacing:-.08em;
 	margin:0 auto;
-	color: #E3D8A8;
 	text-align: center;
+	color: #E3D8A8;
 }
 
 .adi-number-text{
-	color: white;
 	text-align: center;
 }
 
-.adi-number-icon{
-	border-radius: 100%;
-	margin: 0 auto;
+#offices-number{
+	color: #CC6600;
 }
 
-.adi-number-icon > *{
-	width: 100%;
-	height: 100%;
+#contribuitors-number{
+	color: #9999FF;
+}
+
+#development-hours-number{
+	color: #00CC66;
 }
 
 
@@ -36,7 +38,7 @@
 
 @media (max-width: 767px){ 
 
-	#adiinnumbers-subsection{
+	#adiinnumbers-company{
 		height: 100px;
 	}
 
@@ -45,7 +47,7 @@
 	}
 
 	.adi-number-text{
-		font-size:12px;
+		font-size:14px;
 	}
 }	
 
@@ -53,7 +55,7 @@
 
 @media (min-width: 768px) and (max-width: 992px) { 
 
-	#adiinnumbers-subsection{
+	#adiinnumbers-company{
 		height: 200px;
 	}
 
@@ -62,7 +64,7 @@
 	}
 
 	.adi-number-text{
-		font-size:20px;
+		font-size:16px;
 	}
 }
  
@@ -70,7 +72,7 @@
 
 @media (min-width: 991px) and (max-width: 1199px) { 
 
-	#adiinnumbers-subsection{
+	#adiinnumbers-company{
 		height: 250px;
 	}
 
@@ -79,7 +81,7 @@
 	}
 
 	.adi-number-text{
-		font-size:24px;
+		font-size:18px;
 	}
 }
  
@@ -87,7 +89,7 @@
 
 @media (min-width: 1200px ){ 
 
-	#adiinnumbers-subsection{
+	#adiinnumbers-company{
 		height: 300px;
 	}
 
@@ -96,7 +98,7 @@
 	}
 
 	.adi-number-text{
-		font-size:36px;
+		font-size:20px;
 	}
  }
 

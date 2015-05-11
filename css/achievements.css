@@ -10,10 +10,11 @@
 }
 
 .adi-subsection-title h1{
-	text-align: center;
-	font-family: "arial black";
-	color:black;
-	margin-bottom: 50px; 
+  text-align: center;
+  color: black;
+  margin: 10px 10% 50px 10%;
+  border-bottom: 3px double;
+  letter-spacing: 10px;
 }
 
 .adi-achievement{

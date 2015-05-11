@@ -1,0 +1,31 @@
+ body { 
+ 	padding:0px; 
+ 	margin:0px; 
+ 	font-family: PT sans, verdana;
+ }
+
+ html,body{
+ 	height:100%;
+ }
+
+ h1, h2, h3 {
+ 	font-family: 'Slabo 27px', 'PT Sans', Verdana;
+ }
+
+ ::-webkit-scrollbar {
+width: 5px;
+height: 5px;
+}​
+
+::-webkit-scrollbar-track-piece  {
+background: #333;
+}
+
+::-webkit-scrollbar-thumb:vertical, ::-webkit-scrollbar-thumb:horizontal{
+background: #55A2AD;
+}
+
+.navbar-brand img {
+	max-height: 270%;
+	margin-top: -23%;
+}

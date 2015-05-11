@@ -9,31 +9,33 @@ var contentsIds = ["studio-content1","studio-content2","studio-content3","studio
 
 		var studiosQuantity = 5;
 		var marginIcons = (parseInt($("#studios").css("height"),10) - parseInt($(".adi-section-title").css("height"),10) - parseInt($("#icons").css("height"),10))/2;
-		$(".adi-studiosbox-icons").css("height",parseInt($(".adi-studiosbox-icons").css("width"),10)/10); //Proporcion, alto es 1/10 del ancho
-		$(".adi-studiosbox-icons").css("margin-top",marginIcons);
-		$(".adi-studiosbox-box,.adi-studiosbox-box-active").css("width",$(".adi-studiosbox-box").css("height"));
+		$("#icons").css("height",Math.floor(parseInt($("#icons").css("width"),10)/5) - 5); //Proporcion, alto es 1/10 del ancho
+		// $(".adi-studiosbox-container").css("width",parseInt($(".adi-studiosbox-container").css("height"),10)); 
+		// $(".adi-studiosbox-icons").css("height",parseInt($(".adi-studiosbox-icons").css("width"),10)/10); //Proporcion, alto es 1/10 del ancho
+		// $(".adi-studiosbox-icons").css("margin-top",marginIcons);
+		// $(".adi-studiosbox-box,.adi-studiosbox-box-active").css("width",$(".adi-studiosbox-box").css("height"));
 		var marginWidth = Math.floor((parseInt($(".adi-studiosbox-icons").css("width"),10) - studiosQuantity * parseInt($(".adi-studiosbox-box").css("width"), 10)) / studiosQuantity) - 3; 
 		$("#studio1").css("margin-left",Math.floor(marginWidth/2));
 		$("#studio2,#studio3,#studio4,#studio5").css("margin-left",marginWidth);
 	
 	/*;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Studios Text Responsive ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;, */
 
-		var textMargin = Math.floor(parseInt($(".adi-studio-content").css("width"),10)*0.025);
-		$(".adi-studio-text").css("margin-right",textMargin);
-		$(".adi-studio-text").css("margin-left",textMargin);
-		var maxHeight = 0;
-		for(i = 1 ; i <= studiosIds.length ; i++){
-			var container = "#studio-content" + i + " > .adi-studio-text";
-			var currentHeight  = parseInt($(container).css("height"),10);
-			if(currentHeight > maxHeight){		
-				maxHeight = currentHeight;
-			}
-		}
-		if($(window).width() >= 767){
-			$("#content").css("height",maxHeight + maxHeight*0.1);
-		}else{
-			$("#content").css("height",maxHeight + maxHeight*0.1 + parseInt($(".adi-studio-image").css("height"),10));
-		}
+	//	var textMargin = Math.floor(parseInt($(".adi-studio-content").css("width"),10)*0.025);
+	//	$(".adi-studio-text").css("margin-right",textMargin);
+	//	$(".adi-studio-text").css("margin-left",textMargin);
+	//	var maxHeight = 0;
+	//	for(i = 1 ; i <= studiosIds.length ; i++){
+	//		var container = "#studio-content" + i + " > .adi-studio-text";
+	//		var currentHeight  = parseInt($(container).css("height"),10);
+	//		if(currentHeight > maxHeight){		
+	//			maxHeight = currentHeight;
+	//		}
+	//	}
+	//	if($(window).width() >= 767){
+	//		$("#content").css("height",maxHeight + maxHeight*0.1);
+	//	}else{
+	//		$("#content").css("height",maxHeight + maxHeight*0.1 + parseInt($(".adi-studio-image").css("height"),10));
+	//	}
 
 	/*;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Studios Image Responsive ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;, */
 
@@ -42,13 +44,13 @@ var contentsIds = ["studio-content1","studio-content2","studio-content3","studio
 		if($(window).width() >= 767){
 			var marginImg = Math.floor((parseInt($("#content").css("height"),10) - parseInt($(".adi-studio-image").css("height"),10))/2);
 			$(".adi-studio-image").css("margin-top",marginImg);
-			$(".adi-studio-image").css("margin-left",parseInt($(".adi-studiosbox-content").css("width"),10)/8);
+		//	$(".adi-studio-image").css("margin-left",parseInt($(".adi-studiosbox-content").css("width"),10)/8);
 		}else{
 			var marginImg = Math.floor(parseInt($(".adi-studio-image").css("height"),10)/10);
 			$(".adi-studio-image").css("margin-top",marginImg);
 			$(".adi-studio-image").css("margin-bottom",marginImg);
-			var marginToCenter = Math.floor((parseInt($("#content").css("width"),10) - parseInt($(".adi-studio-image").css("width"),10))/2);
-			$(".adi-studio-image").css("margin-left",marginToCenter);	
+			// var marginToCenter = Math.floor((parseInt($("#content").css("width"),10) - parseInt($(".adi-studio-image").css("width"),10))/2);
+			// $(".adi-studio-image").css("margin-left",marginToCenter);	
 		}
 
 	}

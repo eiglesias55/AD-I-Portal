@@ -65,6 +65,8 @@ background: #55A2AD;
 	border-right-color: #91C45E;
 }
 
+/**/
+
 @-moz-document url-prefix() {
 
 	.navbar-brand img {

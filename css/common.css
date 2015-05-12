@@ -64,3 +64,15 @@ background: #55A2AD;
 #hiring:hover:before {
 	border-right-color: #91C45E;
 }
+
+@-moz-document url-prefix() {
+
+	.navbar-brand img {
+		margin-top: -10%;
+	}
+
+	#hiring {
+		margin-left: -8%;
+	}
+
+}

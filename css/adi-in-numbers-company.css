@@ -1,4 +1,4 @@
-#adiinnumbers-company{
+﻿#adiinnumbers-company{
 	display: block;
 }
 
@@ -14,23 +14,28 @@
 	letter-spacing:-.08em;
 	margin:0 auto;
 	text-align: center;
-	color: #E3D8A8;
+	color: #EEE;
 }
 
-.adi-number-text{
+.adi-number-text {
 	text-align: center;
 }
 
+#adiinnumbers-company {
+	background: #3FB7C4;
+	background-image: radial-gradient(40% 80% at 50% 50%,#7DD2DB,#3FB7C4);
+}
+
 #offices-number{
-	color: #CC6600;
+	color: #C2DEC1;
 }
 
 #contribuitors-number{
-	color: #9999FF;
+	color: #C2DEC1;
 }
 
 #development-hours-number{
-	color: #00CC66;
+	color: #C2DEC1;
 }
 
 

@@ -2,147 +2,89 @@
 
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Sections %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
 
-#approach-context-section{
-	background-color: #99CCFF;
-	height: 94.5vh;
-}
-
-.adi-section{
-	display: inline-block;
-	width: 100%;
-	margin: 0px;
+#development-methodology {
+    position: relative;
+    min-height: 280px;
+    background: #77D11D;
 	padding: 10px;
 }
 
-.adi-subsection{
-	width: 100%;
-	display: flex;	
+#development-methodology h1 {
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 20px;
 }
 
-/*-------------------------------------------- Titles & Subtitles ------------------------------------------------*/
-
-#section-title{
-	font-size: 50px;
-	text-align: center;
+#development-methodology h2 {
+	font-size: 20px;
+	text-transform: uppercase;
 }
 
-#section-subtitle{
-	font-size: 32px;
-	text-align: center;
-	color: #A39999;
+#development-methodologies-content {
+    background: #0B6FA1;
 }
 
-/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Graphbox %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
-
-/*------------------------------------------ Graphbox Boxes Classes -------------------------------------------------*/
-
-.adi-graphbox{
-	height: 570px;
-	width: 612px;
-	display: block;
-	margin: 50px auto 0 auto;
+#development-methodologies {
+    float: left;
+    width: 40%;
+	margin-left: 60%;
+    margin-top: 80px;
+	transition: 1s;
+	-moz-transition: 1s;
 }
 
-.adi-graphbox-box{
-	width: 120px;
-	height: 120px;
-	line-height: 120px;
-	border-radius: 100%;
-	text-align: center;
-	vertical-align: text-top;
+#development-methodologies li {
+    list-style: none;
+    background: #333;
+    text-transform: uppercase;
+    padding: 2px 10px;
+    width: 100%;
+    margin-bottom: 2px;
+    z-index: 0;
+    color: #eee;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
 	cursor: pointer;
 }
 
-.adi-graphbox-box img{
-	width: 100%;
-	height: 100%;
+#development-methodologies li:hover {
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	background: #111;
 }
 
-/*------------------------------------------ Graphbox Boxes Ids -------------------------------------------------*/
-
-
-
-
-#graph-services, #graph-tools{
-	margin: 0 auto;
+#development-methodologies li.selected {
+	padding-left: 50px;
+	margin-left: -40px;
+	margin-bottom: 7px;
+	box-shadow: -5px 5px #eee;
+	cursor: default;
 }
 
-#graph-ADI{
-	margin-top: 20px;
-	margin-left: 25px;
-	font-size: 36px;
-	height: 200px;
-	width: 200px;
-	line-height: 200px;
-	background-color: #458FFF;
-	text-shadow: 2px 2px #225CB2;
-	display: inline-block;
+#development-methodologies-content {
+    position: absolute;
+    top: 0; 
+    right: 0; 
+    left: 45%;
+    bottom: 0;
+    padding: 60px 10px 10px;
 }
 
-
-/* ----------------------------------------- Graphbox Sections Classes --------------------------------------------------*/
-
-.adi-graphbox-top{
-	height: 140px;
-	width: 100%;
+#development-methodologies-content:before {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -92px;
+    bottom: 0;
+    border-top: 300px transparent solid;
+    border-right: 92px solid #0B6FA1;
 }
 
-.adi-graphbox-bottom{
-	height: 140px;
-	width: 100%;
+.devmeth-text {
+    display: none;
 }
-
-.adi-graphbox-middle{
-	height: 260px;
-	width: 100%;
-}
-
-/* ----------------------------------------- Graphbox Sections Ids ----------------------------------------------*/
-
-#graphbox-middle-left{
-	display: inline-block;
-	margin-left: 60px;
-
-}
-
-#graphbox-middle-right{
-	display: inline-block;
-	margin-right: 60px;
-}
-
-
-#graph-technologies,#graph-deliverymodel{
-	margin-top: -20px;
-	margin-bottom: 40px;
-}
-
-/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% GraphBoard %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
-
-/* -------------------------------------------- Graphboard Boxes Classes ------------------------------------------*/
-
-.adi-graph-board{
-	display: inline-block;
-	margin:auto auto;
-	
-}
-
-.adi-graph-board > *{
-	display: none;
-}
-
-/* -------------------------------------------- Graphboard text Classes -------------------------------------------*/
-	
-.adi-graph-board h3{
-	text-align: center;
-	font-size: 26px;
-	color: black;
-}
-
-.adi-graph-board p{
-	font-size: 18px;
-	color: blue;
-
-}
-
 
 

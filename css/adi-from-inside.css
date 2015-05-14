@@ -11,6 +11,7 @@
 	z-index: 1;
 	color: #fff;
 	text-shadow: 0 0 10px #333;
+	z-index: 1;
 }
 
 .carousel-item {
@@ -33,10 +34,14 @@
 }
 
 .carousel-item.selected {
-    right: 0;
-	left: 0;
+    right: 0%;
     transition: 0.5s;
     -moz-transition: 0.5s;
+	z-index: 1;
+}
+
+.goUnder {
+	z-index: 0 !important;
 }
 
 #carousel-buttons {
@@ -45,6 +50,7 @@
     text-align: center;
 	right: 0;
 	left: 0;
+	z-index: 1;
 }
 
 .carousel-button {

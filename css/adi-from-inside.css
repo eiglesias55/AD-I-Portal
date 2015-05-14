@@ -1,0 +1,109 @@
+#adi-from-inside {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#adi-from-inside h1 {
+	position: absolute;
+	left: 0; right: 0;
+	top: 2%;
+	z-index: 1;
+	color: #fff;
+	text-shadow: 0 0 10px #333;
+}
+
+.carousel-item {
+    position: absolute;
+    top: 0;
+    right: -110%;
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    width: 100%;
+}
+
+.carousel-item img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	transition: 0.5s;
+    -moz-transition: 0.5s;
+}
+
+.carousel-item.selected {
+    right: 0;
+	left: 0;
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+}
+
+#carousel-buttons {
+    position: absolute; 
+    bottom: 5%;
+    text-align: center;
+	right: 0;
+	left: 0;
+}
+
+.carousel-button {
+    width: 11px;
+	display: inline-block;
+    height: 11px;
+    background: #333;
+    border: 1px solid #aaa;
+    margin: 0 1%;
+    opacity: 0.7;
+	border-radius: 100%;
+	cursor: pointer;
+}
+
+.carousel-button:hover {
+	opacity: 1;
+}
+
+.carousel-button.selected {
+    border: 2px solid #aaa;
+	opacity: 1;
+	width: 13px;
+	height: 13px;
+	cursor: default;
+}
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Responsive %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+@media (max-width: 767px){ 
+
+	#adi-from-inside{
+		height: 100px;
+	}
+
+}	
+
+/* -----------------------------------------  Tablets en horizonal y escritorios normales ------------------------------------- */
+
+@media (min-width: 768px) and (max-width: 992px) { 
+
+	#adi-from-inside{
+		height: 200px;
+	}
+}
+ 
+/* ----------------------------------------- Móviles en horizontal o tablets en vertical --------------------------------------- */
+
+@media (min-width: 991px) and (max-width: 1199px) { 
+
+	#adi-from-inside{
+		height: 250px;
+	}
+	
+}
+ 
+/* ----------------------------------------------------- Móviles en vertical --------------------------------------------------- */
+
+@media (min-width: 1200px ){ 
+
+	#adi-from-inside{
+		height: 300px;
+	}

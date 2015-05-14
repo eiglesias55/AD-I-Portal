@@ -2,7 +2,7 @@ $(document).ready(function () {
 	
 	//cambio de colores de imagenes en #adi-from-inside on hover
 	
-	$(".carousel-item img + img, #carousel-buttons").hover(function () {
+	$(".carousel-item img + img, #carousel-buttons, #adi-from-inside h1").hover(function () {
 		$(".carousel-item.selected img + img").css("opacity", "0");
 	}, function () {
 		$(".carousel-item.selected img + img").css("opacity", "1");

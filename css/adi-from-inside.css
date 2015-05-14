@@ -1,7 +1,6 @@
 #adi-from-inside {
     width: 100%;
     position: relative;
-    overflow: hidden;
 }
 
 #adi-from-inside h1 {
@@ -11,16 +10,18 @@
 	z-index: 1;
 	color: #fff;
 	text-shadow: 0 0 10px #333;
-	z-index: 1;
+	z-index: 10;
 }
 
 .carousel-item {
     position: absolute;
     top: 0;
+	bottom: 0;
     right: -110%;
     transition: 0.5s;
     -moz-transition: 0.5s;
     width: 100%;
+	overflow: hidden;
 }
 
 .carousel-item img {
@@ -57,12 +58,15 @@
     width: 11px;
 	display: inline-block;
     height: 11px;
-    background: #333;
-    border: 1px solid #aaa;
+	background: #224D73;
+    border: 1px solid #6CA6B8;
     margin: 0 1%;
     opacity: 0.7;
 	border-radius: 100%;
 	cursor: pointer;
+	box-shadow: 0 0 10px #333;
+	transition: 0.5s;
+    -moz-transition: 0.5s;
 }
 
 .carousel-button:hover {
@@ -70,10 +74,14 @@
 }
 
 .carousel-button.selected {
-    border: 2px solid #aaa;
+    border: 2px solid #8FD446;
+    background: #417322;
+	transition: 0.5s;
+    -moz-transition: 0.5s;
 	opacity: 1;
 	width: 13px;
 	height: 13px;
+	margin-bottom: -1px;
 	cursor: default;
 }
 
@@ -83,6 +91,13 @@
 
 	#adi-from-inside{
 		height: 100px;
+		margin-top: 50px;
+	}
+	
+	#adi-from-inside h1 {
+		color: #224D73;
+		margin-top: -50px;
+		text-shadow: 0 0 0 transparent;
 	}
 
 }	

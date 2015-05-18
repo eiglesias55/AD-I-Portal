@@ -1,6 +1,6 @@
 #we-are-adi-section {
 	background-color: #82BBED;
-	background-image: url('images/company.jpg');
+	background-image: url('images/company.png');
 	background-size: 100%;
 	background-repeat: no-repeat;
 	text-align: center;
@@ -18,6 +18,10 @@
 	margin-top: 10px;
 	color: #fff;
 	text-shadow: 0 0 10px #333;
+}
+
+#we-are-adi-section img {
+	width: 5%;
 }
 
 /* -----------------------------------------  Tablets en horizonal y escritorios normales ------------------------------------- */

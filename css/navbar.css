@@ -2,3 +2,8 @@
 	margin-bottom: 0px;
 	border-radius: 0px;
 }
+
+.nav.navbar-nav {
+	text-transform: uppercase;
+	font-size: 13px;
+}

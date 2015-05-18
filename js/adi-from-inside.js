@@ -17,6 +17,7 @@ $(document).ready(function () {
 			var carouselActivo = $(".carousel-item.selected").attr("id");
 			setTimeout( function () {
 				$("#" + carouselActivo).removeClass("selected");
+				$("#" + carouselActivo + " img").css("opacity", "1");
 			}, 1000);
 			var numeroCarousel = parseInt(carouselActivo.substr(-1));
 			$("#carousel-button-" + numeroCarousel).removeClass("selected");

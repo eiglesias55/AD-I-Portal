@@ -1,0 +1,77 @@
+#we-are-adi-section {
+	background-color: #82BBED;
+	background-image: url('images/company.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-position: 50%;
+}
+
+#we-are-adi-section h1 {
+	color: #fff;
+	text-shadow: 0 0 10px #333;
+	padding-top: 100px;
+	margin-top: 0px;
+}
+
+#we-are-adi-section h2 {
+	margin-top: 10px;
+	color: #fff;
+	text-shadow: 0 0 10px #333;
+}
+
+/* -----------------------------------------  Tablets en horizonal y escritorios normales ------------------------------------- */
+
+@media (max-width: 768px) { 
+
+	#we-are-adi-section {
+		height: 200px;
+		background-size: 150%;
+	}
+
+	#we-are-adi-section h1 {
+		padding-top: 30px;
+		font-size: 20px;
+	}
+	
+	#we-are-adi-section h2 {
+		font-size: 15px;
+	}
+	
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) { 
+
+	#we-are-adi-section {
+		height: 200px;
+	}
+
+	#we-are-adi-section h1 {
+		padding-top: 30px;
+	}
+	
+}
+ 
+/* ----------------------------------------- Móviles en horizontal o tablets en vertical --------------------------------------- */
+
+@media (min-width: 991px) and (max-width: 1199px) { 
+
+	#we-are-adi-section {
+		height: 300px;
+	}
+	
+	#we-are-adi-section h1 {
+		padding-top: 70px;
+	}
+}
+ 
+/* ----------------------------------------------------- Móviles en vertical --------------------------------------------------- */
+
+@media (min-width: 1200px ){ 
+
+	#we-are-adi-section {
+		height: 400px;
+	}
+
+ }

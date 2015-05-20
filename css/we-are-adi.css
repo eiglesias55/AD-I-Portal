@@ -5,6 +5,9 @@
 	background-repeat: no-repeat;
 	text-align: center;
 	background-position: 50%;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: -10px;
 }
 
 #we-are-adi-section h1 {
@@ -12,17 +15,32 @@
 	text-shadow: 0 0 10px #333;
 	padding-top: 100px;
 	margin-top: 0px;
+	font-size: 100px;
 }
 
 #we-are-adi-section h2 {
-	margin-top: 10px;
+	padding: 0px;
 	color: #fff;
 	text-shadow: 0 0 10px #333;
+	margin: -50px 0 20px 0;
+}
+
+#we-are-adi-section #bgVideo {
+	margin: -20% -10px 0 -10px;
 }
 
 #we-are-adi-section img {
 	width: 5%;
 }
+
+#we-are-adi-section #content {
+	position: absolute;
+	top: 0; right: 0; left: 0; bottom: 0; 
+	background-image: url('images/dots.png');
+	background-size: 3%;
+}
+
+
 
 /* -----------------------------------------  Tablets en horizonal y escritorios normales ------------------------------------- */
 

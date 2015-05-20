@@ -1,9 +1,5 @@
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Sections %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
 
-#our-team-section{
-	background-color: #F0E54F;
-}
-
 .adi-section{
 	display: inline-block;
 	width: 100%;
@@ -14,21 +10,6 @@
 .adi-subsection{
 	width: 100%;
 	display: flex;	
-}
-
-/*-------------------------------------------- Titles & Subtitles ------------------------------------------------*/
-
-#section-title{
-	font-size: 50px;
-	text-align: center;
-	margin: 50px auto;
-}
-
-#section-subtitle{
-	font-size: 32px;
-	text-align: center;
-	margin: 50px auto;
-	color: #666;
 }
 
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Paragraph Board %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */

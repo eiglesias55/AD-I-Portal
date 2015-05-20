@@ -1,4 +1,5 @@
 
+
 .adi-section{
 	display: block;
 	width: 100%;
@@ -13,6 +14,21 @@
 	width: 100%;
 }
 
+
+/*-------------------------------------------- Titles & Subtitles ------------------------------------------------*/
+
+#section-title{
+	font-size: 50px;
+	text-align: center;
+	margin: 50px auto;
+}
+
+#section-subtitle{
+	font-size: 32px;
+	text-align: center;
+	margin: 50px auto;
+	color: #666;
+}
 
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Testimonials %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
 

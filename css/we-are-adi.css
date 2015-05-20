@@ -8,13 +8,15 @@
 	overflow: hidden;
 	position: relative;
 	margin-bottom: -10px;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/company.png', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/company.png', sizingMethod='scale')";
 }
 
 #we-are-adi-section h1 {
 	color: #fff;
 	text-shadow: 0 0 10px #333;
 	padding-top: 100px;
-	margin-top: 0px;
+	margin-top: -30px;
 	font-size: 100px;
 }
 
@@ -53,8 +55,8 @@ display: none;
 	}
 
 	#we-are-adi-section h1 {
-		padding-top: 30px;
-		font-size: 20px;
+		padding-top: 50px;
+		font-size: 35px;
 	}
 	
 	#we-are-adi-section h2 {
@@ -71,7 +73,13 @@ display: none;
 	}
 
 	#we-are-adi-section h1 {
-		padding-top: 30px;
+		padding-top: 50px;
+		font-size: 50px;
+	}
+	
+	#we-are-adi-section h2 {
+		font-size: 20px;
+		margin-bottom: 0px; 
 	}
 	
 }

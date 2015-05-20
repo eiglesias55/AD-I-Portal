@@ -1,35 +1,40 @@
-﻿#adiinnumbers-company{
-	display: block;
+#our-history-section {
+	background-color: #42B353;
 }
 
-.adi-number-box{
-	display: inline-block;
-	margin: 0;
-	width:33%;	
-	white-space: nowrap;
-	
-}
-
-.adi-number-number{
-	letter-spacing:-.08em;
-	margin:0 auto;
-	text-align: center;
-	color: #EEE;
-}
-
-.adi-number-text {
-	text-align: center;
-}
-
-#adiinnumbers-company {
-	background: #3FB7C4;
-	background-image: radial-gradient(40% 80% at 50% 50%,#7DD2DB,#3FB7C4);
-}
-
-#development-hours-number, #contribuitors-number, #offices-number{
+#our-history-section h1 {
 	color: #fff;
+	margin-top: 10px;
 }
 
+#our-history-section #timeline {
+	border-top: 2px #fff dashed;
+	border-bottom: 2px #fff dashed;
+	height: 100px;
+	width: 80%;
+}
+
+#our-history-section #timeline:before {
+	border-top: 2px #fff dashed;
+	border-right: 2px #fff dashed;
+	height: 71px;
+	transform: rotate(45deg);
+	width: 71px;
+	margin: 13px -39px 0 auto;
+	displaY: block;
+	content: '';
+	float: right;
+}
+
+#timeline img {
+	display: inline-block;
+    width: 35%;
+	margin-top: -125px;
+}
+
+#timeline #img1 {
+
+}
 
 
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Responsive %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
@@ -99,4 +104,3 @@
 		font-size:20px;
 	}
  }
-

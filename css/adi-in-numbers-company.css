@@ -26,17 +26,10 @@
 	background-image: radial-gradient(40% 80% at 50% 50%,#7DD2DB,#3FB7C4);
 }
 
-#offices-number{
-	color: #C2DEC1;
+#development-hours-number, #contribuitors-number, #offices-number{
+	color: #fff;
 }
 
-#contribuitors-number{
-	color: #C2DEC1;
-}
-
-#development-hours-number{
-	color: #C2DEC1;
-}
 
 
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Responsive %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */

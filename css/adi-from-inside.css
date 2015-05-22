@@ -1,12 +1,12 @@
 #adi-from-inside {
-	margin-top: -100px;
 	background-color: #BC8DC4;
+	text-align: center;
 }
 
 #adi-from-inside h1 {
 	color: #fff;
 	margin-bottom: 10px;
-	margin-top: 0;
+	margin-top: 20px;
 }
 
 #ga-life {
@@ -28,10 +28,42 @@
 	display: none;
 }
 
+#ga-life-text {
+	display: inline-block;
+	width: 40%;
+	color: #eee;
+	text-align: right;
+	padding: 10px 20px 0 0;
+}
+
+#adi-from-inside .learnMore {
+	position: relative;
+	top: -10px;
+}
+
+
+/* -----------------------------------------  Responsive ------------------------------------- */
+
+@media (max-width: 768px) { 
+	
+	#ga-life-text {
+		display: block;
+		width: 80%;
+		text-align: center;
+		margin: 10px auto;
+	}
+	
+	#adi-from-inside .learnMore {
+		position: static;
+	}
+	
+}
+
 /* -----------------------------------------  Tablets en horizonal y escritorios normales ------------------------------------- */
 
 @media (min-width: 768px) and (max-width: 992px) { 
-
+	
+	
 }
  
 /* ----------------------------------------- Móviles en horizontal o tablets en vertical --------------------------------------- */

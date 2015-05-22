@@ -1,5 +1,8 @@
 $(document).ready(function () {
 	
+	var imgHeight = $("#ga-life-1").height();
+	$("#ga-life").height(imgHeight);
+	
 	var i = 1;
 	setInterval(function () {
 		$("#ga-life-" + i).fadeOut(500);
@@ -10,5 +13,11 @@ $(document).ready(function () {
 		$("#ga-life-" + i).fadeIn(500);
 	}, 4000);
 	
+	
+	
 });
 
+$(window).resize(function () { 
+		var imgHeight = $("#ga-life-1").height();
+		$("#ga-life").height(imgHeight);
+	});

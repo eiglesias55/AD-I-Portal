@@ -1,19 +1,21 @@
-
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Sections %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
 
 .adi-section{
-	display: block;
+	display: inline-block;
 	width: 100%;
 	margin: 0px;
-}
-
-.adi-section h1{
-	margin: 0px;
+	padding: 10px;
 }
 
 .adi-subsection{
 	width: 100%;
+	display: flex;	
 }
 
+
+.adi-section h1{
+	margin: 0px;
+}
 
 /*-------------------------------------------- Titles & Subtitles ------------------------------------------------*/
 
@@ -30,116 +32,4 @@
 	color: #666;
 }
 
-/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Testimonials %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
 
-#testimonials-company {
-/*	background-color: #E3E040; */
-	padding-bottom: 10%;
-	text-align: center;
-}
-
-.adi-testimonials {
-    width: 20%;
-    margin: 2%;
-    padding: 10px;
-    background: #ddd;
-    position: relative;
-    display: inline-block;
-
-}
-
-.adi-testimonials > span {
-	position: relative;
-  	display: block;
-}
-
-.adi-testimonials img {
-    max-width: 100%;
-    position: relative;
-    display: block; 
-}
-
-.adi-testimonials > span:before {
-        position: absolute;
-    top: 25%;
-    right: -20px;
-    height: 30%;
-    border-left:20px solid #A1824D;
-    border-bottom:20px solid transparent;
-    content: '';
-    display: block;
-}
-
-.adi-testimonials > span:after {
-        content: '';
-    display: block;
-    position: absolute;
-    top: 25%;
-    right: -20px;
-    border-right: 40px solid #E3DA9F;
-    border-bottom: 40px solid transparent;
-}
-
-.adi-testimonials-text {
-    background: #D6C765;
-    color: #444;
-    text-align: justify;
-    font-size: 11px;
-    padding: 2% 10px;
-    position: absolute;
-    bottom: -30%;
-    left: -10px;
-    right: -10px;
-}
-
-.adi-testimonials-text:before {
-    position: absolute;
-    top: -20px;
-    left: 0;
-    border-right:20px solid #A1824D;
-    border-top:20px solid transparent;
-    content: '';
-    display: block;
-}
-
-.adi-testimonials-text:after {
-    position: absolute;
-    bottom: -20px;
-    right: 0;
-    border-left:20px solid #A1824D;
-    border-bottom:20px solid transparent;
-    content: '';
-    display: block;
-}
-
-.adi-testimonials-text:first-letter {
-    font: 30px 'Slabo 27px';
-    margin: -5px 5px -10px 5px;
-    float: left;
-}
-
-.adi-testimonials-text span {
-	text-align: right;
-	display: block; 
-	color: #666;
-}
-
-/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Responsive %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
-
-@media (max-width: 768px) { 
-
-	.adi-testimonials > span{
-		display: none;
-	}
-
-	.adi-testimonials{
-		display: block;
-		background: transparent;
-		margin: 1% auto;
-		width: 50%;
-	}
-
-	.adi-testimonials-text {
-		position: relative;
-	}
-}

@@ -1,16 +1,13 @@
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Sections %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
 
-.adi-section{
-	display: inline-block;
-	width: 100%;
-	margin: 0px;
-	padding: 10px;
+#our-team-section {
+	background-color: #eee;
 }
 
-.adi-subsection{
-	width: 100%;
-	display: flex;	
+#our-team-section #section-title {
+	color: #CCA947;
 }
+
 
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Paragraph Board %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
 

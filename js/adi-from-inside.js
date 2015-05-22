@@ -1,53 +1,34 @@
 $(document).ready(function () {
 	
-	//cambio de colores de imagenes en #adi-from-inside on hover
-	
-	$(".carousel-item img + img, #carousel-buttons, #adi-from-inside h1").hover(function () {
-		$(".carousel-item.selected img + img").css("opacity", "0");
-	}, function () {
-		$(".carousel-item.selected img + img").css("opacity", "1");
+	$('a').click(function(){
+		$('html, body').animate({
+			scrollTop: $('[name="' + $.attr(this, 'href').substr(1) + '"]').offset().top
+		}, 500);
 	});
 	
 	
-	//carousel de #adi-from-inside
-	var movimientoCarousel;
+	$("#ga-life").scrollLeft(999999);
+	var maxScrollLeft = $("#ga-life").scrollLeft();
+	$("#ga-life").scrollLeft(0);
 	
-	function iniciarCarousel () {
-		movimientoCarousel = setInterval(function () {
-			var carouselActivo = $(".carousel-item.selected").attr("id");
-			setTimeout( function () {
-				$("#" + carouselActivo).removeClass("selected");
-				$("#" + carouselActivo + " img").css("opacity", "1");
-			}, 1000);
-			var numeroCarousel = parseInt(carouselActivo.substr(-1));
-			$("#carousel-button-" + numeroCarousel).removeClass("selected");
-			numeroCarousel++;
-			if ((numeroCarousel-1) == $(".carousel-item").length) {
-				numeroCarousel = 1
-			}
-			$("#carousel-button-" + numeroCarousel).addClass("selected");
-			$("#carousel-item-" + numeroCarousel).addClass("selected");
-		}, 4000);
-	}
-	
-	iniciarCarousel();
-	
-	
-	$(".carousel-button").click(function () {
-		$(".carousel-button.selected").removeClass("selected");
-		var carouselActivo = $(".carousel-item.selected").attr("id");
-		$("#" + carouselActivo).addClass("goUnder");
-		setTimeout(function () {
-			$("#" + carouselActivo).removeClass("selected").removeClass("goUnder");
-		}, 600);
-		$(this).addClass("selected");
-		var botonActivo = $(this).attr("id");
-		var numeroCarousel = parseInt(botonActivo.substr(-1));
-		$("#carousel-item-" + numeroCarousel).addClass("selected");
-		clearInterval(movimientoCarousel);
-		setTimeout(iniciarCarousel(), 2000);
+	$("#ga-life").scroll(function () {
+		var leftDisplacement = $(this).scrollLeft();
+		if ( leftDisplacement < 100 ) {
+			leftDisplacement = leftDisplacement / 100;
+			$("#adi-from-inside #before").css("opacity", leftDisplacement.toString() );
+		} 
+		else if ( leftDisplacement > 100) {
+			$("#adi-from-inside #before").css("opacity", "1" );
+		}
+		else if ( leftDisplacement > (maxScrollLeft -100) ) {
+			leftDisplacement = (leftDisplacement-maxScrollLeft)/100
+			$("#adi-from-inside #before").css("opacity", leftDisplacement.toString() );
+		} else if ( leftDisplacement < (maxScrollLeft - 100) ) {
+			$("#adi-from-inside #before").css("opacity", "1" );
+		}
+		
+			
 	});
-
 	
 });
 

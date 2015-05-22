@@ -1,5 +1,5 @@
 #we-are-adi-section {
-	background-color: #82BBED;
+	background-color: #D6C05C;
 	background-image: url('images/company.png');
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -18,6 +18,10 @@
 	padding-top: 100px;
 	margin-top: -30px;
 	font-size: 100px;
+}
+
+#we-are-adi-section span {
+	color: #60CAD6;
 }
 
 #we-are-adi-section h2 {

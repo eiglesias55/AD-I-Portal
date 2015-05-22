@@ -1,130 +1,55 @@
 #adi-from-inside {
     width: 100%;
     position: relative;
+	margin-top: -150px;
 }
 
 #adi-from-inside h1 {
-	position: absolute;
-	left: 0; right: 0;
-	top: 2%;
-	z-index: 1;
-	color: #fff;
-	text-shadow: 0 0 10px #333;
-	z-index: 10;
+	color: #B75CD5;
+	margin-bottom: 10px;
 }
 
-#carousel-items {
-	overflow: hidden;
-	bottom: 0;
-	top: 0;
+#adi-from-inside img {
+	max-height: 100%;
+}
+
+#ga-life {
+	overflow-x: auto;
+	overflow-y: hidden;
+	height: 300px;
+}
+
+#adi-from-inside #after, #adi-from-inside #before {
+	display: block;
+	bottom: 15px;
+	height: 300px;
+	width: 150px;
 	position: absolute;
-	left: 0;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+}
+
+#adi-from-inside #after {
+	background: linear-gradient(to left,#fff,rgba(0,0,0,0));
 	right: 0;
 }
 
-.carousel-item {
-    position: absolute;
-    top: 0;
-    right: -110%;
-    transition: 0.5s;
-    -moz-transition: 0.5s;
-    width: 100%;
-}
-
-.carousel-item img {
-	position: absolute;
-	top: 0;
+#adi-from-inside #before {
+	opacity: 0;
 	left: 0;
-	right: 0;
-	width: 100%;
-	transition: 0.5s;
-    -moz-transition: 0.5s;
+	background: linear-gradient(to right,#fff,rgba(0,0,0,0));
 }
-
-.carousel-item.selected {
-    right: 0%;
-    transition: 0.5s;
-    -moz-transition: 0.5s;
-	z-index: 1;
-}
-
-.goUnder {
-	z-index: 0 !important;
-}
-
-#carousel-buttons {
-    position: absolute; 
-    bottom: 5%;
-    text-align: center;
-	right: 0;
-	left: 0;
-	z-index: 1;
-}
-
-.carousel-button {
-    width: 11px;
-	display: inline-block;
-    height: 11px;
-	background: #224D73;
-    border: 1px solid #6CA6B8;
-    margin: 0 1%;
-    opacity: 0.7;
-	border-radius: 100%;
-	cursor: pointer;
-	box-shadow: 0 0 10px #333;
-	transition: 0.5s;
-    -moz-transition: 0.5s;
-}
-
-.carousel-button:hover {
-	opacity: 1;
-}
-
-.carousel-button.selected {
-    border: 2px solid #8FD446;
-    background: #417322;
-	transition: 0.5s;
-    -moz-transition: 0.5s;
-	opacity: 1;
-	width: 13px;
-	height: 13px;
-	margin-bottom: -1px;
-	cursor: default;
-}
-
-/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Responsive %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
-
-@media (max-width: 767px){ 
-
-	#adi-from-inside{
-		height: 100px;
-		margin-top: 50px;
-	}
-	
-	#adi-from-inside h1 {
-		color: #224D73;
-		margin-top: -50px;
-		text-shadow: 0 0 0 transparent;
-	}
-
-}	
 
 /* -----------------------------------------  Tablets en horizonal y escritorios normales ------------------------------------- */
 
 @media (min-width: 768px) and (max-width: 992px) { 
 
-	#adi-from-inside{
-		height: 200px;
-	}
 }
  
 /* ----------------------------------------- Móviles en horizontal o tablets en vertical --------------------------------------- */
 
 @media (min-width: 991px) and (max-width: 1199px) { 
 
-	#adi-from-inside{
-		height: 250px;
-	}
 	
 }
  
@@ -132,6 +57,4 @@
 
 @media (min-width: 1200px ){ 
 
-	#adi-from-inside{
-		height: 300px;
-	}
+}

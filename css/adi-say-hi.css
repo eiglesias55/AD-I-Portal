@@ -1,6 +1,8 @@
 #adi-say-hi {
 	background-size: 100%;
 	background-color: #8FC9D9;
+	background-repeat: no-repeat;
+	background-position: 50%;
 	text-align: center;
 }
 
@@ -32,4 +34,81 @@
 #adi-say-hi .learnMore:hover {
 	background: #2F7C91 !important;
 	color: #eee !important;
+}
+
+/* -----------------------------------------  Responsive ------------------------------------- */
+
+@media (max-width: 768px) { 
+	
+	#adi-say-hi h1  {
+		font-size: 30px;
+	}
+	
+	.say-hi-box {
+		padding-top: 0;
+	}
+	
+	.say-hi-number {
+		line-height: 30px;
+		font-size: 40px;
+	}
+	
+	.say-hi-text {
+		font-size: 12px;
+		text-transform: uppercase;
+	}
+	
+	#adi-say-hi .learnMore {
+		font-size: 12px;
+		padding: 5px 10px;
+		margin-top: 10px; 
+	}
+}
+
+/* -----------------------------------------  Tablets en horizonal y escritorios normales ------------------------------------- */
+
+@media (min-width: 768px) and (max-width: 992px) { 
+	
+	#adi-say-hi h1  {
+		font-size: 35px;
+	}
+	
+	.say-hi-box {
+		padding-top: 10px;
+	}
+	
+	.say-hi-number {
+		line-height: 50px;
+		font-size: 60px;
+	}
+	
+	.say-hi-text {
+		font-size: 20px;
+		text-transform: uppercase;
+	}
+	
+}
+ 
+/* ----------------------------------------- Móviles en horizontal o tablets en vertical --------------------------------------- */
+
+@media (min-width: 991px) and (max-width: 1199px) { 
+	
+	#adi-say-hi h1  {
+		font-size: 40px;
+	}
+	
+	.say-hi-box {
+		padding-top: 30px;
+	}
+	
+	.say-hi-number {
+		line-height: 70px;
+		font-size: 80px;
+	}
+	
+	.say-hi-text {
+		font-size: 25px;
+	}
+	
+	
 }

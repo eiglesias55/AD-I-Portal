@@ -1,5 +1,6 @@
 #adi-from-inside {
-	background-color: #BC8DC4;
+	background-color: #6388A8;
+	background-image: radial-gradient(30% 60% at 50% 50%,#81BBC7,#6388A8);
 	text-align: center;
 }
 
@@ -16,7 +17,8 @@
 }
 
 #ga-life img {
-	background: #BC8DC4;
+	background: #6388A8;
+	background-image: radial-gradient(40% 80% at 50% 50%,#81BBC7,#6388A8);
 	width: 100%;
 	position: absolute;
 	left: 0;

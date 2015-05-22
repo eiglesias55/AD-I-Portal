@@ -1,43 +1,31 @@
 #adi-from-inside {
-    width: 100%;
-    position: relative;
-	margin-top: -150px;
+	margin-top: -100px;
+	background-color: #BC8DC4;
 }
 
 #adi-from-inside h1 {
-	color: #B75CD5;
+	color: #fff;
 	margin-bottom: 10px;
-}
-
-#adi-from-inside img {
-	max-height: 100%;
+	margin-top: 0;
 }
 
 #ga-life {
-	overflow-x: auto;
-	overflow-y: hidden;
-	height: 300px;
+	overflow:hidden;
+	height: 280px;
+	position: relative;
 }
 
-#adi-from-inside #after, #adi-from-inside #before {
-	display: block;
-	bottom: 15px;
-	height: 300px;
-	width: 150px;
+#ga-life img {
+	background: #BC8DC4;
+	width: 100%;
 	position: absolute;
-	transition: 0.5s;
-	-moz-transition: 0.5s;
-}
-
-#adi-from-inside #after {
-	background: linear-gradient(to left,#fff,rgba(0,0,0,0));
-	right: 0;
-}
-
-#adi-from-inside #before {
-	opacity: 0;
 	left: 0;
-	background: linear-gradient(to right,#fff,rgba(0,0,0,0));
+	right: 0;
+	top: 0;
+}
+
+#ga-life-2, #ga-life-3 {
+	display: none;
 }
 
 /* -----------------------------------------  Tablets en horizonal y escritorios normales ------------------------------------- */

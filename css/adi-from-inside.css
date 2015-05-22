@@ -1,11 +1,11 @@
 #adi-from-inside {
-	background-color: #6388A8;
-	background-image: radial-gradient(30% 60% at 50% 50%,#81BBC7,#6388A8);
+	background-color: #eee;
+	background-image: radial-gradient(30% 60% at 50% 50%,#fff,#eee);
 	text-align: center;
 }
 
 #adi-from-inside h1 {
-	color: #fff;
+	color: #6388A8;
 	margin-bottom: 10px;
 	margin-top: 20px;
 }
@@ -17,8 +17,8 @@
 }
 
 #ga-life img {
-	background: #6388A8;
-	background-image: radial-gradient(40% 80% at 50% 50%,#81BBC7,#6388A8);
+	background: #eee;
+	background-image: radial-gradient(40% 80% at 50% 50%,#fff,#eee);
 	width: 100%;
 	position: absolute;
 	left: 0;
@@ -33,7 +33,7 @@
 #ga-life-text {
 	display: inline-block;
 	width: 40%;
-	color: #eee;
+	color: #444;
 	text-align: right;
 	padding: 10px 20px 0 0;
 }
@@ -41,7 +41,16 @@
 #adi-from-inside .learnMore {
 	position: relative;
 	top: -10px;
+	background: #6388A8 !important;
+	color: #ddd !important;
 }
+	
+	
+#adi-from-inside .learnMore:hover {
+	background: #799DBD !important;
+	color: #eee !important;
+}
+	
 
 
 /* -----------------------------------------  Responsive ------------------------------------- */
@@ -57,21 +66,30 @@
 	
 	#adi-from-inside .learnMore {
 		position: static;
+		}
+		
+	#adi-from-inside h1  {
+		font-size: 30px;
 	}
-	
 }
 
 /* -----------------------------------------  Tablets en horizonal y escritorios normales ------------------------------------- */
 
 @media (min-width: 768px) and (max-width: 992px) { 
 	
+	#adi-from-inside h1  {
+		font-size: 35px;
+	}
 	
 }
  
 /* ----------------------------------------- Móviles en horizontal o tablets en vertical --------------------------------------- */
 
 @media (min-width: 991px) and (max-width: 1199px) { 
-
+	
+	#adi-from-inside h1  {
+		font-size: 40px;
+	}
 	
 }
  

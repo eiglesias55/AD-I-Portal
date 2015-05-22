@@ -1,0 +1,35 @@
+#adi-say-hi {
+	background-size: 100%;
+	background-color: #8FC9D9;
+	text-align: center;
+}
+
+.say-hi-box {
+	width: 30%;
+	display: inline-block;
+	padding-top: 100px;
+}
+
+.say-hi-number {
+	font-size: 100px;
+	line-height: 90px;
+	font-family: "Slabo 27px";
+	color: #fff;
+}
+
+.say-hi-text {
+	font-size: 30px;
+	color: #222;
+}
+
+#adi-say-hi .learnMore {
+	padding: 10px 20px;
+	margin-top: 60px;
+	background: #215B6B !important;
+	color: #ddd !important;
+}
+
+#adi-say-hi .learnMore:hover {
+	background: #2F7C91 !important;
+	color: #eee !important;
+}

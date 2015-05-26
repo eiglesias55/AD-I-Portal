@@ -1,4 +1,6 @@
 #we-are-adi-section {
+	min-width: 100%;
+	min-height: 200px;
 	background-color: #D6C05C;
 	background-image: url('images/company.png');
 	background-repeat: no-repeat;

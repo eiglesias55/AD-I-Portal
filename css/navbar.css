@@ -11,3 +11,63 @@
 .nav.navbar-nav a[href="ga-university.html"]:first-letter {
 	text-transform: lowercase;
 }
+
+
+.navbar-brand img {
+	max-height: 270%;
+	margin-top: -23%;
+	display: inline-block !important;
+}
+
+#hiring {
+	display: inline-block;
+	background: #76B536;
+	border-radius: 2px;
+	color: #eee;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 9px;
+	position: relative;
+	padding: 5px;
+	margin: 15px 5px;
+	float: left;
+}
+
+#hiring:before {
+	border-top: 5px transparent solid;
+	border-bottom: 5px transparent solid;
+	Border-right: 5px #76B536 solid;
+	position: absolute;
+	top: 5px;
+	left: -5px;
+	content: '';
+	display: block;
+}
+
+#hiring:hover {
+	text-decoration: none !important;
+	background: #91C45E;
+}
+
+#hiring:hover:before {
+	border-right-color: #91C45E;
+}
+
+/* Logo positioning FIX for Mozilla */
+
+@-moz-document url-prefix() {
+
+	.navbar-brand {
+		width: 33%;
+	}
+	
+	@media (max-width: 768px) {
+		
+		.navbar-brand {
+			width: 17%;
+			margin-top: 0;
+		}
+		
+	}
+
+}

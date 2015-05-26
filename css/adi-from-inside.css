@@ -72,29 +72,3 @@
 		font-size: 30px;
 	}
 }
-
-/* -----------------------------------------  Tablets en horizonal y escritorios normales ------------------------------------- */
-
-@media (min-width: 768px) and (max-width: 992px) { 
-	
-	#adi-from-inside h1  {
-		font-size: 35px;
-	}
-	
-}
- 
-/* ----------------------------------------- Móviles en horizontal o tablets en vertical --------------------------------------- */
-
-@media (min-width: 991px) and (max-width: 1199px) { 
-	
-	#adi-from-inside h1  {
-		font-size: 40px;
-	}
-	
-}
- 
-/* ----------------------------------------------------- Móviles en vertical --------------------------------------------------- */
-
-@media (min-width: 1200px ){ 
-
-}

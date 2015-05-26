@@ -1,7 +1,7 @@
 #we-are-adi-section {
 	background-color: #D6C05C;
 	background-image: url('images/company.png');
-	background-size: 100%;
+	background-size: 120%;
 	background-repeat: no-repeat;
 	text-align: center;
 	background-position: 50%;
@@ -45,6 +45,7 @@ display: none;
 	top: 0; right: 0; left: 0; bottom: 0; 
 	background-image: url('images/dots.png');
 	background-size: 3%;
+	padding: 0 20px;
 }
 
 
@@ -60,7 +61,6 @@ display: none;
 
 	#we-are-adi-section h1 {
 		padding-top: 50px;
-		font-size: 35px;
 	}
 	
 	#we-are-adi-section h2 {
@@ -78,7 +78,6 @@ display: none;
 
 	#we-are-adi-section h1 {
 		padding-top: 50px;
-		font-size: 50px;
 	}
 	
 	#we-are-adi-section h2 {

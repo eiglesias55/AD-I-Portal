@@ -42,10 +42,11 @@
 
 	.adi-number-number{
 		font-size:30px;
+		margin: 10px auto 0 auto;
 	}
 
 	.adi-number-text{
-		font-size:20px;
+		font-size:15px;
 	}
 }	
 

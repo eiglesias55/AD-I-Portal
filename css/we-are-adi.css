@@ -11,7 +11,7 @@
 	margin-bottom: -10px;
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/company.png', sizingMethod='scale');
 	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/company.png', sizingMethod='scale')";
-	background-size: 150% !important;
+	background-size: cover !important;
 }
 
 #we-are-adi-section h1 {

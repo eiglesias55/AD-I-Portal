@@ -1,7 +1,6 @@
 #we-are-adi-section {
 	background-color: #D6C05C;
 	background-image: url('images/company.png');
-	background-size: 120%;
 	background-repeat: no-repeat;
 	text-align: center;
 	background-position: 50%;
@@ -10,6 +9,7 @@
 	margin-bottom: -10px;
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/company.png', sizingMethod='scale');
 	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/company.png', sizingMethod='scale')";
+	background-size: 150%;
 }
 
 #we-are-adi-section h1 {

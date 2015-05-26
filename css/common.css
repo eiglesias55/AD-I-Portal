@@ -15,7 +15,7 @@
  li {
 	list-style: square;
  }
-
+ 
 
 /* Fancy Scrollbar*/ 
 
@@ -183,33 +183,25 @@ background: #55A2AD;
 	
 	.adi-section #section-title  {
 		font-size: 25px;
+		margin: 10px auto;
 	}
 	
 	.adi-section #section-subtitle {
 		font-size: 15px;
+		margin: 10px auto;
 	}
 }
 
 @media (min-width: 500px) and (max-width: 768px) { 
 	
 	.adi-section #section-title  {
-		font-size: 30px;
+		font-size: 25px;
+		margin: 20px auto;
 	}
 	
 	.adi-section #section-subtitle {
-		font-size: 25px;
-	}
-}
-
-
-@media (max-width: 768px) { 
-	
-	.adi-section #section-title  {
-		font-size: 30px;
-	}
-	
-	.adi-section #section-subtitle {
-		font-size: 25px;
+		font-size: 15px;
+		margin: 20px auto;
 	}
 }
 
@@ -219,10 +211,12 @@ background: #55A2AD;
 	
 	.adi-section #section-title  {
 		font-size: 35px;
+		margin: 30px auto;
 	}
 	
 	.adi-section #section-subtitle {
 		font-size: 30px;
+		margin: 30px auto;
 	}
 }
  
@@ -232,10 +226,12 @@ background: #55A2AD;
 	
 	.adi-section #section-title  {
 		font-size: 40px;
+		margin: 40px auto;
 	}
 	
 	.adi-section #section-subtitle {
 		font-size: 35px;
+		margin: 40px auto;
 	}
 	
 }

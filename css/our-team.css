@@ -34,3 +34,39 @@
 	height: 100%;
 }
 
+
+/* -----------------------------------------  Responsive ------------------------------------- */
+@media (max-width: 500px) { 
+	
+	.paragraph-board {
+		font-size: 12px;
+	}
+}
+
+@media (min-width: 500px) and (max-width: 768px) { 
+	
+	.paragraph-board {
+		font-size: 15px;
+	}
+}
+
+
+/* -----------------------------------------  Tablets en horizonal y escritorios normales ------------------------------------- */
+
+@media (min-width: 768px) and (max-width: 992px) { 
+	
+	.paragraph-board {
+		font-size: 17px;
+	}
+}
+ 
+/* ----------------------------------------- Móviles en horizontal o tablets en vertical --------------------------------------- */
+
+@media (min-width: 991px) and (max-width: 1199px) { 
+	
+	.paragraph-board {
+		font-size: 20px;
+	}
+	
+}
+

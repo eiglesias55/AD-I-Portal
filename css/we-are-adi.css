@@ -15,8 +15,8 @@
 #we-are-adi-section h1 {
 	color: #fff;
 	text-shadow: 0 0 10px #333;
-	padding-top: 100px;
-	margin-top: -30px;
+	padding: 50px 0 5px 0;
+	margin-bottom: 0 !important;
 	font-size: 100px;
 }
 
@@ -28,7 +28,7 @@
 	padding: 0px;
 	color: #fff;
 	text-shadow: 0 0 10px #333;
-	margin: -50px 0 20px 0;
+	margin:0 0 20px 0 !important;
 }
 
 #we-are-adi-section #bgVideo {

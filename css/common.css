@@ -71,6 +71,10 @@ background: #55A2AD;
 	text-transform: uppercase;
 }
 
+.footer .col-lg-2:nth-of-type(4) h3:first-letter {
+	text-transform: lowercase !important;
+}
+
 .footer li { list-style: none;}
 
 .footer ul {

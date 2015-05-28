@@ -9,7 +9,6 @@ $(document).ready(function () {
 			scrollTop: $('[name="' + url + '"]').offset().top
 		}, 1500);
 		
-		return false;
 	}
 	
 	$('a').click(function(){
@@ -19,7 +18,6 @@ $(document).ready(function () {
 			$('html, body').animate({
 				scrollTop: $('[name="' + $.attr(this, 'href').substr(1) + '"]').offset().top
 			}, 500);
-			return false;
 		}
 	});
 });

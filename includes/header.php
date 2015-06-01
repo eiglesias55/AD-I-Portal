@@ -4,44 +4,22 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Company</title>
+    <title><?php echo $page_title; ?></title>
 
     <!-- Favicon -->
     <link href="img/AD&I-favicon.png" rel="icon">
 
 
     <!-- Bootstrap -->
-  
-
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-
-    <!-- Custom CSS-->
-   <link type="text/css" rel="stylesheet" href="css/common.css">
-    <link type="text/css" rel="stylesheet" href="css/navbar.css">
-	<link type="text/css" rel="stylesheet" href="css/we-are-adi.css">
-	<link type="text/css" rel="stylesheet" href="css/our-history.css">
-	<link type="text/css" rel="stylesheet" href="css/our-team.css">
-	<link type="text/css" rel="stylesheet" href="css/adi-in-numbers-company.css">
-	<link type="text/css" rel="stylesheet" href="css/testimonials.css">
-	<link type="text/css" rel="stylesheet" href="css/adi-from-inside.css">
-	<link type="text/css" rel="stylesheet" href="css/adi-say-hi.css">
-    <link type="text/css" rel="stylesheet" href="css/company.css">
-    
-	
+    <link href="css/bootstrap.min.css" rel="stylesheet">   
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
     <!-- Custom fonts-->
     <link href="http://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet" type="text/css">   
     <link href="http://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet" type="text/css">
     
-    <!-- Custom JavaScript-->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-	<script src="js/common.js"></script>
-	<script src="js/adi-from-inside.js"></script>
-	<script src="js/we-are-adi.js"></script>
-	<script src="js/testimonials.js"></script>
-	<script src="js/adi-say-hi.js"></script>
-
+	<?php echo $page_links; ?>
+	
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>

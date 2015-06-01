@@ -1,4 +1,26 @@
-<?php include("includes/header.php"); ?>
+<?php
+$page_title = "Company";
+$page_links = "	<!-- Custom CSS-->
+	<link type='text/css' rel='stylesheet' href='css/common.css'>
+    <link type='text/css' rel='stylesheet' href='css/navbar.css'>
+	<link type='text/css' rel='stylesheet' href='css/we-are-adi.css'>
+	<link type='text/css' rel='stylesheet' href='css/our-history.css'>
+	<link type='text/css' rel='stylesheet' href='css/our-team.css'>
+	<link type='text/css' rel='stylesheet' href='css/adi-in-numbers-company.css'>
+	<link type='text/css' rel='stylesheet' href='css/testimonials.css'>
+	<link type='text/css' rel='stylesheet' href='css/adi-from-inside.css'>
+	<link type='text/css' rel='stylesheet' href='css/adi-say-hi.css'>
+    <link type='text/css' rel='stylesheet' href='css/company.css'>
+	
+	
+    <!-- Custom JavaScript-->
+	
+	<script src='js/common.js'></script>
+	<script src='js/adi-from-inside.js'></script>
+	<script src='js/we-are-adi.js'></script>
+	<script src='js/testimonials.js'></script>
+	<script src='js/adi-say-hi.js'></script>";
+ include("includes/header.php"); ?>
 
 	<!--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Comienzo de Seccion %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
 
@@ -139,97 +161,4 @@
   		
    </div>
    
-<!--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Footer %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
-
-  <footer>
-    <div class="footer" id="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
-                    <h3> AD&I </h3>
-                    <ul>
-                        <li> <a href="#"> Company </a> </li>
-                        <li> <a href="#">Our Studios </a> </li>
-                        <li> <a href="#"> gA University </a> </li>
-						<li> <a href="#"> Methodology </a> </li>
-                    </ul>
-                </div>
-                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
-                    <h3> Company </h3>
-                    <ul>
-                        <li> <a href="#we-are-adi-section"> We are AD&I </a> </li>
-                        <li> <a href="#our-history-section"> Our History </a> </li>
-						<li> <a href="#our-team-section"> Our Team </a> </li>
-                        <li> <a href="#adi-in-numbers-section"> AD&I in numbers </a> </li>
-                        <li> <a href="#testimonials-section"> Customer Testimonials </a> </li>
-                        <li> <a href="#ga-life-section"> gA Life </a> </li>
-                        <li> <a href="#say-hi-section"> Say hi! </a> </li>
-                    </ul>
-                </div>
-                
-				<div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
-                    <h3> Studios </h3>
-                    <ul>
-                        <li> <a href="#"> UX & Social </a> </li>
-                        <li> <a href="#"> Mobile </a> </li>
-						<li> <a href="#"> e-Commerce </a> </li>
-                        <li> <a href="#"> Digital Content </a> </li>
-                        <li> <a href="#"> ERP </a> </li>
-                    </ul>
-                </div>
-				
-				<div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
-                    <h3> gA University </h3>
-                    
-                </div>
-                <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
-                    <h3> Methodology </h3>
-                    
-                </div>
-                <div class="col-lg-3  col-md-3 col-sm-6 col-xs-12 ">
-                    <h3> Our headquarters </h3>
-                    <ul>
-                        <li>
-                            <div class="adi-our-headquarters-img">
-                              <img src="Img/where-to-find-us.png">
-                            </div>
-                        </li>
-                    </ul>
-                    <ul class="social">
-                       <li> <a href="https://www.facebook.com/grupoassa"> <img src="Img/facebook-icon.png"> </a> </li>
-                        <li> <a href="https://www.youtube.com/user/grupoassa"> <img src="Img/youtube-icon.png"></a> </li>
-                        <li> <a href="https://twitter.com/grupo_assa"> <img src="Img/twitter-icon.png"> </a> </li>
-                        <li> <a href="https://www.linkedin.com/company/grupo-assa"> <img src="Img/linkedin-icon.png"> </a> </li>
-                        <li> <a href="https://plus.google.com/115745625107023367096/posts"> <img src="Img/googleplus-icon.png"> </a> </li>
-                    </ul>
-                </div>
-            </div>
-            <!--/.row--> 
-        </div>
-        <!--/.container--> 
-    </div>
-    <!--/.footer-->
-    
-    <div class="footer-bottom">
-        <div class="container">
-            <p class="pull-left"> Copyright © Grupo Assa. All right reserved. </p>
-            <div class="pull-right">
-                <ul class="nav nav-pills payments">
-                  <li><i class="fa fa-cc-visa"></i></li>
-                    <li><i class="fa fa-cc-mastercard"></i></li>
-                    <li><i class="fa fa-cc-amex"></i></li>
-                    <li><i class="fa fa-cc-paypal"></i></li>
-                </ul> 
-            </div>
-        </div>
-    </div>
-    <!--/.footer-bottom--> 
-</footer>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/navbar.js"></script>
-  </body>
-</html>
+<?php include("includes/footer.html"); ?>

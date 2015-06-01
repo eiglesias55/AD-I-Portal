@@ -1,7 +1,6 @@
 <?php
 $page_title = "Company";
 $page_links = "	<!-- Custom CSS-->
-	<link type='text/css' rel='stylesheet' href='css/common.css'>
     <link type='text/css' rel='stylesheet' href='css/navbar.css'>
 	<link type='text/css' rel='stylesheet' href='css/we-are-adi.css'>
 	<link type='text/css' rel='stylesheet' href='css/our-history.css'>
@@ -14,8 +13,6 @@ $page_links = "	<!-- Custom CSS-->
 	
 	
     <!-- Custom JavaScript-->
-	
-	<script src='js/common.js'></script>
 	<script src='js/adi-from-inside.js'></script>
 	<script src='js/we-are-adi.js'></script>
 	<script src='js/testimonials.js'></script>

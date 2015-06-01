@@ -18,7 +18,11 @@
     <link href="http://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet" type="text/css">   
     <link href="http://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet" type="text/css">
     
+	<!-- Basic CSS and JS-->
+	<link type='text/css' rel='stylesheet' href='css/common.css'>
+	<script src='js/common.js'></script>
 	<?php echo $page_links; ?>
+	
 	
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

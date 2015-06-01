@@ -12,7 +12,7 @@ $(document).ready(function () {
 	$(".adi-testimonials").each(function () {
 		var thisHeight = $(this).height();
 		if ( thisHeight < maxHeight ) {
-			$(this).css("top", ((maxHeight-thisHeight)/2) + "px" );
+			$(this).css("bottom", ((maxHeight-thisHeight) /2) + "px" );
 		}
 	
 	});
@@ -30,7 +30,7 @@ $(window).resize(function () {
 	$(".adi-testimonials").each(function () {
 		var thisHeight = $(this).height();
 		if ( thisHeight < maxHeight ) {
-			$(this).css("top", ((maxHeight-thisHeight)/2) + "px" );
+			$(this).css("bottom", ((maxHeight-thisHeight)/2) + "px" );
 		}
 	
 	});

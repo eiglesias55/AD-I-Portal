@@ -12,7 +12,7 @@
 
 .adi-testimonials {
     width: 20%;
-    margin: 3%;
+    margin: 0 3%;
     padding: 10px;
     position: relative;
     display: inline-block;
@@ -75,7 +75,7 @@
 @media (min-width: 768px) and (max-width: 992px) { 
 
 	.adi-testimonials {
-		margin: 1%;
+		margin: 0 1%;
 		width: 30%
 	}
 
@@ -84,7 +84,7 @@
 @media (min-width: 991px) and (max-width: 1199px) { 
 
 	.adi-testimonials {
-		margin: 2%;
+		margin: 0 2%;
 		width: 25%
 	}
 
@@ -94,7 +94,7 @@
 @media (min-width: 1200px ){ 
 
 	.adi-testimonials {
-		margin: 3%;
+		margin: 0 3%;
 		width: 25%
 	}
  }

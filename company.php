@@ -136,15 +136,15 @@ $page_links = "	<!-- Custom CSS-->
   		<h1 id="section-title">Say hi!</h1>
 		
 		<div class="say-hi-box" id="offices-hi-number">
-          <div class="say-hi-number">##</div>
+          <div class="say-hi-number">8</div>
           <div class="say-hi-text">Offices</div>
         </div>
         <div class="say-hi-box" id="countries-hi-number">
-          <div class="say-hi-number">##</div>
+          <div class="say-hi-number">41</div>
           <div class="say-hi-text">Countries</div>
         </div>
         <div class="say-hi-box" id="continents-hi-number">
-          <div class="say-hi-number">#</div>
+          <div class="say-hi-number">3</div>
           <div class="say-hi-text">Continents</div>
         </div>
 		<br>
